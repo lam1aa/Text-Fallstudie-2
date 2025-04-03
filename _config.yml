@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Template Book
-author: Hannes Schnaitter
+title: Kommunikative Barrierefreiheit des Berliner Senats
+author: QUADRIGA
 logo: assets/logo.jpg
 copyright: "2024, QUADRIGA"
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md, LICENSE.md, useful_documentation.md]
@@ -23,7 +23,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/quadriga-dk/Book_Template  # Online location of your book
+  url: https://github.com/quadriga-dk/Text-Fallstudie-2  # Online location of your book
   # path_to_book: book  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 

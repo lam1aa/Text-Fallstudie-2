@@ -1,48 +1,52 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
 format: jb-book
-root: einleitung
+root: front_page/intro
 parts:
-  - caption: 1 Struktur und didaktisches Konzept
+  - caption: Präambel
     chapters:
-      - file: struktur_didaktisches_konzept/struktur
-      - file: struktur_didaktisches_konzept/didaktisches_konzept
-  - caption: 2 Technologiestack
+    - file: intro/introduction_learning-outcomes
+    - file: intro/introduction_requirements
+  - caption: Fragestellung und Operationalisierung. Einführung in die Fallstudie
     chapters:
-      - file: technologiestack/zusammenspiel_der_tools
-      - file: technologiestack/grafische_aufbereitung
-  - caption: 2.1 Entwicklungsumgebung
+    - file: research_question/research-question_intro
+    - file: research_question/esearch-question_research-question
+    - file: research_question/research-question_operationalization
+    - file: research_question/research-question_summary
+  - caption: Korpusaufbau. Text als digitale Objekte 
     chapters:
-      - file: entwicklung/einleitung
-      - file: entwicklung/git
-      - file: entwicklung/unix
-      - file: entwicklung/python
-      - file: entwicklung/jupyter_book
-      - file: entwicklung/editor
-  - caption: 2.2 Formatierungs- und Darstellungsmöglichkeiten
+    - file: corpus_collection/corpus-collection_intro    
+    - file: corpus_collection/corpus-collection_corpora-as-research-objects
+    - file: corpus_collection/corpus-collection_text_as_digital_objects
+    - file: corpus_collection/corpus-collection_metadata
+    - file: corpus_collection/corpus-collection_building-our-corpus
+    - file: corpus_collection/corpus-collection_summary
+  - caption: Scraping als Methode zur Korpusbildung
     chapters:
-      - file: formatierung/einleitung
-      - file: formatierung/markdown
-      - file: formatierung/notebooks
-      - file: formatierung/markdown-notebooks
-      - file: formatierung/links_in_neuem_tab
-      - file: formatierung/abbildungen
-      - file: formatierung/videos
-      - file: formatierung/admonitions
-  - caption: 3 (Selbst-)Assessment
+    - file: scraping_intro/scraping_intro
+    - file: scraping_intro/scraping_method-overview
+    - file: scraping_intro/scraping_html_intro
+    - file: scraping_intro/scraping_accessing_a_website
+    - file: scraping_intro/scraping_structual-analysis
+    - file: scraping_intro/scraping_summary
+  - caption: Scraping des Analysekorpus
     chapters:
-      - file: assessment/einleitung
-      - file: assessment/jupyterquiz
-      - file: assessment/test-driven_assessment
-  - caption: 4 Fazit
+    - file: scraping_corpus/scraping-list_intro
+      #- file: scraping/scraping-list_selenium
+    - file: scrapng_corpus/scraping-list_summary
+  - caption: Korpusanalyse. Textkomplexität
     chapters:
-      - file: fazit/abschlussassessment
-      - file: fazit/zusammenfassung
-      - file: fazit/weiterführende_hinweise
-  - caption: Hinterwerk
+    - file: corpus_analysis/corpus-analysis_intro
+    - file: corpus_analysis/corpus-analysis_text_complexity
+    - file: corpus_analysis/corpus-analysis_analysis
+    - file: corpus_analysis/corpus-analysis_resumee
+  - caption: Reflexion und Resümee
     chapters:
-      - file: hinterwerk/literaturverzeichnis
-      - file: hinterwerk/authors
-      - file: hinterwerk/quadriga
-      - file: hinterwerk/impressum
+    - file: reflection/reflection_reflection
+    - file: reflection/reflection_outlook
+    - file: reflection/reflection_resumee
+  - caption: Epilog
+    chapters:
+    - file: additional_info/bibliography
+    - file: additional_info/authors
+    - file: additional_info/quadriga
+    - file: additional_info/impressum
+
