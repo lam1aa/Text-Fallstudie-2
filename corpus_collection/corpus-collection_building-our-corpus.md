@@ -19,22 +19,9 @@ Um das Korpus für unser Forschungsprojekt aufzubauen, müssen nun drei Punkte a
 
 
 ## 1. Korpuskonzept
-Als Untersuchungsgegenstand wurde [oben](research-question_operationalization) "Texte in Berliner Tageszeitungen" angegeben, wobei wir uns auf den Zeitraum der Spanischen Grippe-Pandemie beschränken wollen. Als Zeitraum für die Spanische Grippe gibt [Wikipedia](https://en.wikipedia.org/wiki/Spanish_flu) "February 1918 – April 1920" an. Ebenfalls auf [Wikipedia](https://de.wikipedia.org/wiki/Liste_Berliner_Tageszeitungen) wird angegeben, dass es um 1925 in Berlin "30 Tageszeitungen" gab. Geht man nur von einer Ausgabe pro Tag aus (was wenig ist, da viele Zeitungen in dieser Zeit in Morgen- und Abendausgabe erscheinen), würde ein vollständiges Korpus für diesen Untersuchungsgegenstand 24.570 Ausgaben von Tageszeitungen umfassen. 
-Bei unseren Recherchen haben wir als mögliche Quelle für die Korpuselemente das ["ZEitungsinFormationssYStem der Staatsbibliothek zu Berlin"](https://zefys.staatsbibliothek-berlin.de/), kurz "ZEFYS", identifiziert, das zu zahlreichen Berliner Tageszeitungen unseres Untersuchungszeitraums Bilddigitalisate (u.a. im PDF-Format) führt. Eine von uns durchgeführte Stichproben hat dabei ergeben, das dass PDF einer Ausgabe im Durchschnitt etwa 74 MB groß ist. Eine erste Grobschätzung für ein Korpus ergab damit eine Größe von 
+Als Untersuchungsgegenstand wurde [oben](research-question_operationalization) mit "vom Senat veröffentlichten Pressemitteilungen" angegeben, wobei wir uns auf digital veröffentliche Pressemitteilungen beschränken wollen. Auf der [Überblicksseite](https://www.berlin.de/presse/pressemitteilungen/index/search/page/) des Presseportals Berlin finden sich die ersten Pressemitteilungen aus Senatsverwaltungen und den Bezirksämtern im Jahr 2011. Dies setzen wir als Startjahr. Das Enddatum fällt mit dem Tag der Datensammlung (01.10.2024) zusammen. Unsere Sammlungsmethodik ist somit opportunistisch, da wir alle digital verfügbaren Pressemitteilungen bis zum Zeitpunkt der Sammlung in das Korpus aufnehmen. Insgesamt wurden in diesem Zeitraum 66.034 Pressemitteilungen veröffentlicht. 
 
-```
-24.570 x 75 MB = 1.818,18 GB
-```
-mithin fast 2 Terabyte. Ein solches Korpus ist pragmatisch kaum zu handhaben. Aus diesen pragmatischen Gründen kann unser Korpus also kein vollständiges sein; stattdessen haben wir uns für ein tendenziell balanciertes Korpus entschieden. 
-
-Dieses Korpus konzentriert sich dabei 
-
-- auf zwei renommierte Zeitungen, nämlich die [Vossische Zeitung](https://zefys.staatsbibliothek-berlin.de/list/title/zdb/27112366/) und die [Berliner Morgenpost](https://zefys.staatsbibliothek-berlin.de/list/title/zdb/2719372X/), 
-- wobei wir jeweils nur eine Ausgabe pro Tag und Zeitung nehmen, also im Falle von Morgen- und Abendausgabe eine von beiden auswählen, und
-- uns auf den Zeitraum 1. Januar 1918 bis 31.12.1919 beschränken, also maximal 2 x 2 x 365 = 1.460 Ausgaben umfassen 
-
-Das Korpus soll ausgehend von den über ZEFYS verfügbaren PDF-Dateien aufgebaut werden. Am Ende des weiter unten genauer erläuterten Korpusaufbau-Prozesses stand damit schließlich ein Korpus, das sich mit folgenden Metadaten beschreiben lässt: 
-
+Am Ende des weiter unten genauer erläuterten Korpusaufbau-Prozesses stand damit schließlich ein Korpus, das sich mit folgenden Metadaten beschreiben lässt: 
 - **[DC.title](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/title/)**: "Zeitungskorpus zur Spanischen Grippe in Berlin, 1918/1919"
 - **[DC.description](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/description/)**: "Sammlung sämtlicher verfügbarer Morgenausgaben der beiden Berliner Zeitungen "Vossische" und "Berliner Morgenpost aus den Jahren 1918 und 1919"
 - **[DC.creator](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/creator/)**: "Henny Sluyter-Gäthje, Daniil Skorinkin, Peer Trilcke für QUADRIGA. Berlin-Brandenburgische Datenkompetenzzentrum für Digital Humanities und Verwaltungswissenschaft"
