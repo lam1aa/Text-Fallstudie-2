@@ -1,4 +1,5 @@
-**Einführung in HTML**
+(scraping-intro_html)=
+# Einführung in HTML
 
 HTML (HyperText Markup Language) ist die Grundsprache des Internets. Sie wird verwendet, um Webseiten zu strukturieren und Inhalte wie Text, Bilder und Links darzustellen. Die Bausteine der HTML-Sprache sind HTML-Elemente.
 
@@ -10,7 +11,7 @@ name: HTML-Element
 Der Aufbau eines einfachen HTML-Elements
 ```
 
-### 1. Die Grundstruktur einer HTML-Seite
+## 1. Die Grundstruktur einer HTML-Seite
 Jede HTML-Datei beginnt mit der Deklaration `<!DOCTYPE html>`, die dem Browser mitteilt, dass es sich um eine HTML5-Datei handelt. Die grundlegende Struktur sieht so aus:
 
 ```html
@@ -31,10 +32,10 @@ Jede HTML-Datei beginnt mit der Deklaration `<!DOCTYPE html>`, die dem Browser m
 - `<title>`: Legt den Titel der Webseite fest.
 - `<body>`: Enthält den sichtbaren Inhalt der Seite.
 
-### 2. Wichtige HTML-Elemente
+## 2. Wichtige HTML-Elemente
 HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) gekennzeichnet sind.
 
-#### a) Überschriften und Absätze
+### a) Überschriften und Absätze
 - `<h1>`, `<h2>`, ..., `<h6>`: Überschriften unterschiedlicher Größe.
 - `<p>`: Ein Absatz.
 
@@ -44,7 +45,7 @@ HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) 
 <p>Dies ist ein Absatz.</p>
 ```
 
-#### b) Links und Bilder
+### b) Links und Bilder
 - `<a href="URL">Text</a>`: Erstellt einen Link.
 - `<img src="bild.jpg" alt="Beschreibung">`: Fügt ein Bild ein.
 
@@ -53,9 +54,9 @@ HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) 
 <img src="bild.jpg" alt="Beispielbild">
 ```
 
-### 3. Listen und Tabellen
+## 3. Listen und Tabellen
 
-#### a) Ungeordnete und geordnete Listen
+### a) Ungeordnete und geordnete Listen
 - `<ul>`: Eine Liste mit Punkten.
 - `<ol>`: Eine nummerierte Liste.
 - `<li>`: Ein Listenelement.
@@ -67,7 +68,7 @@ HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) 
 </ul>
 ```
 
-#### b) Tabellen
+### b) Tabellen
 - `<table>`: Erstellt eine Tabelle.
 - `<tr>`: Erstellt eine Zeile.
 - `<td>`: Erstellt eine Zelle.
@@ -86,7 +87,7 @@ HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) 
 </table>
 ```
 
-### 4. HTML und CSS
+## 4. HTML und CSS
 HTML strukturiert die Inhalte, aber für das Design wird CSS (Cascading Style Sheets) verwendet. CSS kann direkt in HTML eingefügt werden:
 
 ```html
@@ -96,7 +97,7 @@ HTML strukturiert die Inhalte, aber für das Design wird CSS (Cascading Style Sh
 </style>
 ```
 
-### Fazit
+## Fazit
 HTML ist einfach zu lernen und bildet die Grundlage jeder Webseite. Mit HTML kann man Texte, Bilder, Links, Tabellen und mehr darstellen. CSS ist ein wichtiger Bestandteil des Webdesigns. Um Websites zu scrapen und automatisch Daten aus dem Web zu extrahieren, sind HTML-Kenntnisse besonders wichtig.
 
 ### Video: eine 3-minütige HTML-Einführung von W3C
