@@ -1,4 +1,4 @@
-(scraping-intro_html)=
+(html-intro_html-intro)=
 # Einführung in HTML
 
 HTML (HyperText Markup Language) ist die Grundsprache des Internets. Sie wird verwendet, um Webseiten zu strukturieren und Inhalte wie Text, Bilder und Links darzustellen. Die Bausteine der HTML-Sprache sind HTML-Elemente.

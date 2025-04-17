@@ -1,4 +1,4 @@
-(corpus-collection_text_as_digital_objects)=
+(html-intro_text_as_digital_objects)=
 # Elemente von Korpora: Texte als digitale Objekte
 ```{admonition} Feinlernziel(e) dieses Kapitels
 :class: lernziele
