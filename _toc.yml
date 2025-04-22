@@ -21,6 +21,7 @@ parts:
   - caption: Scraping als Methode zum Korpusaufbau
     chapters: 
     - file: scraping_intro/scraping_intro
+    - file: scraping_intro/scraping_http-intro
     - file: scraping_intro/scraping_method-overview
     - file: scraping_intro/scraping_accessing_a_website
       #- file: scraping/scraping-list_selenium
