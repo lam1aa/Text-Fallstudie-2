@@ -42,9 +42,7 @@ Die Antwort vom Server enthält ebenfalls mehrere Komponenten:
 ## Automatisierte Abfrage der Startseite der Berliner Senatskanzlei
 Beispielhaft wollen wir die Startseite der Berlinar Senatskanzlei abfragen. Dafür verwenden wir die Python-Bibliothek `requests` und erstellen einen GET-Request, da wir ausschließlich die Inhalte der Website zugesendet bekommen wollen (wie wenn Sie auf diese URL klicken: [https://www.berlin.de/rbmskzl/](https://www.berlin.de/rbmskzl/)).
 
-```{code}python
-:label: http_request
-:caption: A simple http request using the library requests
+```python
 
 # import library to perform HTTP requests
 import requests
