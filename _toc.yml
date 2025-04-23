@@ -8,7 +8,7 @@ parts:
   - caption: Fragestellung und Operationalisierung. Einführung in die Fallstudie
     chapters:
     - file: research_question/research-question_intro
-    - file: research_question/esearch-question_research-question
+    - file: research_question/research-question_research-question
     - file: research_question/research-question_operationalization
     - file: research_question/research-question_summary
   - caption: Korpora als epistemische Objekte 
@@ -44,7 +44,6 @@ parts:
     chapters:
     - file: reflection/reflection_reflection
     - file: reflection/reflection_outlook
-    - file: reflection/reflection_resumee
   - caption: Epilog
     chapters:
     - file: additional_info/bibliography
