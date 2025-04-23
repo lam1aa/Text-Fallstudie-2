@@ -1,7 +1,8 @@
 ---
 lang: de-DE
 ---
-<h1>Autor*innen</h1>
+# Autor\*innen
+
 <h2>Autor:innen der Inhalte</h2>
 
 <h3>Daniil Skorinkin <a href="https://orcid.org/0000-0002-1845-9974" target="_blank"><img src="../book_images/ORCID_iD.png" alt="ORCID Logo"></a></h3>
