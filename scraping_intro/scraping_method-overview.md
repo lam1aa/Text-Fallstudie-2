@@ -10,7 +10,7 @@ Im [vorherigen Kapitel](scraping-intro_http-intro) haben wir bereits ein Beispie
 
 ### Statische vs. dynamische Websites
 
-Websites können grundsätzlich in zwei Kategorien eingeteilt werden, was für das Web Scraping sehr relevant ist:
+Websites können grundsätzlich in zwei Kategorien eingeteilt werden: statische und dynamische Websites. Abhängig davon, welche Inhalte extrahiert werden sollen und wie die Website beschaffen ist, muss die Scraping-Methode angepasst werden.
 
 - **Statische Websites**: Diese Websites sind wie fertige Dokumente, die auf dem Server bereitliegen. Wenn Sie eine solche Seite anfordern, wird Ihnen exakt dieser vorbereitete Inhalt geschickt. Das ist vergleichbar mit dem Anfordern eines bestimmten Buchkapitels aus einer Bibliothek – der Inhalt liegt fertig vor und ändert sich nicht. Diese Art von Websites kann leicht mit einfachen Scraping-Methoden extrahiert werden, da alle Informationen direkt im HTML-Code enthalten sind.
 
@@ -21,7 +21,7 @@ Websites können grundsätzlich in zwei Kategorien eingeteilt werden, was für d
 
 ### 1. Einfache Anfragen mit requests
 
-Die grundlegendste Form des Web Scrapings ist das Abrufen einzelner Webseiten mit Hilfe des Python-Pakets `requests`. Diese Methode eignet sich für statische Webseiten, deren Inhalt direkt im HTML-Code enthalten ist.
+Die grundlegendste Form des Web Scrapings ist das Abrufen einzelner Webseiten, z.B. mit Hilfe des Python-Pakets `requests`. Diese Methode eignet sich für statische Webseiten, deren Inhalt direkt im HTML-Code enthalten ist.
 
 ```python
 # import library to perform HTTP requests
@@ -140,13 +140,14 @@ driver.quit()
 | Durchsuchen und Extraktion von Daten aus einem Blog oder Wiki | `Scrapy` | Effizientes Folgen von Links, Extrahieren ähnlicher Daten von mehreren Seiten |
 | Daten aus einem Social-Media-Portal | `Selenium` | Notwendig für Login, Scrollen, Klicken und dynamisch nachgeladene Inhalte |
 | Korpuserstellung aus statischen Webseiten | `Scrapy` | Gute Balance aus Geschwindigkeit und Funktionalität für größere Sammlungen |
+| Korpuserstellung aus dynamischen Webseiten | `Selenium` | Notwendig für Scrollen, Klicken und dynamisch nachgeladene Inhalte |
 | Interaktion mit Suchformularen | `Selenium` | Ermöglicht das Ausfüllen und Absenden von Formularen |
 
 ## Ethische und rechtliche Aspekte
 
 Beim Web Scraping sind stets ethische und rechtliche Aspekte zu beachten:
 
-- Beachtung der `robots.txt`-Datei einer Website
+- Beachtung der `robots.txt`-Datei einer Website, die Informationen darüber gibt, welche Websites gescraped werden dürfen.
 - Angemessene Wartezeiten zwischen Anfragen einhalten
 - Keine persönlichen Daten ohne Einwilligung sammeln
 - Urheberrecht und Nutzungsbedingungen der Websites beachten
