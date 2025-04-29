@@ -1,5 +1,5 @@
 (intro)=
-# Quantitative diachrone Analyse der kommunikativen Barrierefreiheit des Berliner Senats (2011-2024). Eine Fallstudie
+# Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats (2011-2024). Eine Fallstudie
 
 
 Die vorliegende Fallstudie bereitet – in Form eines ["Jupyter Books"](introduction_requirements) – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf. Schritt für Schritt wird nachvollziehbar, 
@@ -8,7 +8,7 @@ Die vorliegende Fallstudie bereitet – in Form eines ["Jupyter Books"](introduc
 - ein entsprechendes **Korpus** aufgebaut, bereinigt und angereichert wird,
 - um schließlich quantitative **Analysen** auf diesem Korpus durchzuführen.
 
-Anhand von Pressemitteilungen des Berliner Senats wird dabei eine Frage aus dem Feld der nachgegangen: **Wie entwickelt sich die kommunikatorische Barrierefreiheit des Berliner Senats im Zeitraum von 2011 bis 2024?**
+Anhand von Pressemitteilungen des Berliner Senats wird dabei eine Frage aus dem Feld der kommunikationswissenschaftlichen Digital Humanities nachgegangen: **Wie entwickelt sich die kommunikative Barrierearmut des Berliner Senats im Zeitraum von 2011 bis 2024?**
 
 
 ### Zielgruppe

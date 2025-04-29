@@ -1,5 +1,5 @@
 (research-question_operationalization)= 
-# Operationalisierung
+# Operationalisierung und Methodik
 ```{admonition} Feinlernziel(e) dieses Kapitels
 :class: lernziele
 Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitaive Methoden-Settings.
