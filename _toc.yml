@@ -18,14 +18,6 @@ parts:
     - file: corpus_collection/corpus-collection_metadata
     - file: corpus_collection/corpus-collection_building-our-corpus
     - file: corpus_collection/corpus-collection_summary
-  - caption: Scraping als Methode zum Korpusaufbau
-    chapters: 
-    - file: scraping_intro/scraping_intro
-    - file: scraping_intro/scraping_http-intro
-    - file: scraping_intro/scraping_method-overview
-    - file: scraping_intro/scraping_accessing_a_website
-      #- file: scraping/scraping-list_selenium
-    - file: scraping_intro/scraping_summary
   - caption: Texte als digitale Objekt. Einführung in HTML
     chapters:
     - file: html_intro/html-intro_intro
@@ -34,6 +26,17 @@ parts:
     - file: html_intro/html-intro_structural-analysis
     #- file: html_intro/html-intro_analysis-corpus
     - file: html_intro/html-intro_summary
+  - caption: Scraping als Methode zum Korpusaufbau
+    chapters: 
+    - file: scraping_intro/scraping_intro
+    - file: scraping_intro/scraping_http-intro
+    - file: scraping_intro/scraping_method-overview
+    - file: scraping_intro/scraping_accessing_a_website
+    - file: scraping_intro/scraping_summary
+  - caption: Korpusaufbau
+    - file: corpus_building/corpus-building_intro 
+    #- file corpus_building/corpus_building_building
+    - file: corpus_building/corpus-building_summary 
   - caption: Korpusanalyse. Textkomplexität
     chapters:
     - file: corpus_analysis/corpus-analysis_intro
