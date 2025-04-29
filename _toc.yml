@@ -34,6 +34,7 @@ parts:
     - file: scraping_intro/scraping_accessing_a_website
     - file: scraping_intro/scraping_summary
   - caption: Korpusaufbau
+    chapters:
     - file: corpus_building/corpus-building_intro 
     #- file corpus_building/corpus_building_building
     - file: corpus_building/corpus-building_summary 
