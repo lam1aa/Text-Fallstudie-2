@@ -3,8 +3,8 @@ root: front_page/intro
 parts:
   - caption: Präambel
     chapters:
-    - file: intro/introduction_learning-outcomes
-    - file: intro/introduction_requirements
+    - file: introduction/introduction_learning-outcomes
+    - file: introduction/introduction_requirements
   - caption: Fragestellung und Operationalisierung. Einführung in die Fallstudie
     chapters:
     - file: research_question/research-question_intro
