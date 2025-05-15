@@ -36,6 +36,7 @@ parts:
   - caption: Korpusaufbau
     chapters:
     - file: corpus_building/corpus-building_intro 
+    - file: corpus_building/corpus_building_mass_scraping_press-releases
     #- file corpus_building/corpus_building_building
     - file: corpus_building/corpus-building_summary 
   - caption: Korpusanalyse. Textkomplexität
