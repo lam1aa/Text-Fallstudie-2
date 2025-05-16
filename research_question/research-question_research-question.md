@@ -12,7 +12,7 @@ name: Google Ngram-Ergebnisse zu "Leichte Sprache"
 Google Ngram-Ergebnisse zu "Leichte Sprache". Siehe auch [Link](https://books.google.com/ngrams/graph?content=Leichte+Sprache&year_start=1990&year_end=2022&corpus=de&smoothing=1&case_insensitive=false)
 ```
 
-Vor diesem Hintergrund haben Behörden in den letzten Jahren zunehmend gesonderte Angebote in Leichter Sprache aufgebaut. Wie aber verhält es sich mit der allgemeinen Kommunikation der öffentlichen Verwaltung? Hat sich auch diese im Kontext der intensivierten Debatten über sprachliche Barrieren in der Kommunikation zwischen Bürger:innen und Staat gewandelt – und im besten Fall ‚vereinfacht‘? 
+Vor diesem Hintergrund haben Behörden in den letzten Jahren zunehmend gesonderte Angebote in Leichter Sprache aufgebaut. Wie aber verhält es sich mit der allgemeinen Kommunikation der öffentlichen Verwaltung? Hat sich auch diese im Kontext der intensivierten Debatten über sprachliche Barrieren in der Kommunikation zwischen Bürger:innen und Staat gewandelt – und im besten Fall ‚vereinfacht‘, ist sie also barrierearmer geworden? 
 
 Wir wollen diese Fragestellung anhand eines zentralen Formats der Kommunikation zwischen Staat und Bürger:innen erörtern: der Pressemitteilung, mit der (Landes-)Regierungen und Behörden die Öffentlichkeit über politische Entscheidungen, Gesetzesvorhaben und aktuelle Entwicklungen informieren. Eine Verminderung der Komplexität der Sprache in den Pressemitteilungen würde Barrieren abbauen und so Inklusion fördern. 
 
@@ -21,7 +21,7 @@ Tun dies – so fragen wir uns im Folgenden am Beispiel der Berliner Senatsverwa
 
 `````{admonition} Forschungsfrage
 :class: tip
-Lässt sich für die etwa letzten anderthalb Jahrzehnte eine Verminderung der sprachlichen Komplexität in der Kommunikation der Berliner Senatsverwaltung mit der Öffenlichkeit feststellen?
+Wie entwickelt sich die kommunikative Barrierearmut des Berliner Senats im Zeitraum von 2011 bis 2024?
 `````
 
 # Bibliographie
