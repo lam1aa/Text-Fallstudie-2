@@ -23,7 +23,7 @@ Texte können digital auf sehr unterschiedliche Weisen gespeichert, prozessiert 
 
 **Beispiel:**
 
-```{figure} ../book_images/corpus-collection_text_as_digital_objects_image-example.png
+```{figure} ../assets/images/corpus-collection_text_as_digital_objects_image-example.png
 ---
 height: 200
 name: Snippet eines Bilddigitalisats
@@ -48,6 +48,7 @@ name: Snippet eines Bilddigitalisats
 Europäischer Aktionstag zur Gleichstellung von Menschen mit Behinderungen
 Wir laden Sie herzlich ein, den „Aktionstag BUNT VERBINDET“ am Freitag den 3. Mai 2024 von 12:00 bis 17:00 Uhr, auf dem Hermann-Ehlers-Platz, auf unserem Straßenfest zu feiern. Der Aktionstag findet anlässlich des Europäischen Protesttages zur Gleichstellung von Menschen mit Behinderungen statt. Ein ganz besonderes Highlight ist unser LeseZelt, in dem Geschichten durch Gebärdensprache, Tastbücher und Leichte Sprache erzählt werden. Hören, sehen, fühlen und verstehen sind für alle gleichermaßen erlebbar.
 `
+
 *Beispiel für Reinen Text ohne jede Formatierung, üblicherweise als TXT-Datei gespeichert*
 
 ## Textinhalte auf Websites (HTML)
@@ -118,6 +119,8 @@ ID,TOKEN,LEMMA,POS
 | 5   | Menschen       | Mensch          | NOUN  |
 | 6   | mit            | mit             | ADP   |
 | 7   | Behinderungen  | Behinderung     | NOUN  |
+
+
 *CSV-Datei lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*
 
 
