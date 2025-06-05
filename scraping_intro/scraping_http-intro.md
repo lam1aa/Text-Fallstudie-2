@@ -1,3 +1,15 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 (scraping-intro_http-intro)=
 # Webkommunikation mittels HTTP
 ```{admonition} Groblernziel dieses Kapitels
@@ -42,8 +54,7 @@ Die Antwort vom Server enthält ebenfalls mehrere Komponenten:
 ## Automatisierte Abfrage der Startseite der Berliner Senatskanzlei
 Beispielhaft wollen wir die Startseite der Berlinar Senatskanzlei abfragen. Dafür verwenden wir die Python-Bibliothek `requests` und erstellen einen GET-Request, da wir ausschließlich die Inhalte der Website zugesendet bekommen wollen (wie wenn Sie auf diese URL klicken: [https://www.berlin.de/rbmskzl/](https://www.berlin.de/rbmskzl/)).
 
-```python
-
+```{code-cell} python3
 # import library to perform HTTP requests
 import requests
 
