@@ -22,6 +22,15 @@ Zur Erstellung eines Korpus bestehend aus großen Mengen von Website-Inhalten, i
 ## Aufbau der Webkommunikation mittels HTTP
 Wenn Sie eine Website besuchen, passiert im Hintergrund Folgendes:
 
+```{figure} ../assets/images/Web-Communication.png
+---
+height:
+name: Server-Client-Kommunikation im Web
+---
+Server-Client-Kommunikation
+```
+
+
 1. **Anfrage senden**: Ihr Computer, der **Client**, schickt eine Anfrage an den Computer, auf dem die Website gespeichert ist, den **Server**. Diese Anfrage heißt **HTTP-Request** und ist vergleichbar mit einem Formbrief: "Bitte sende mir die Webseite unter dieser Adresse."
 
 2. **Antwort erhalten**: Der Server bearbeitet Ihre Anfrage und schickt eine Antwort zurück, die **HTTP-Response**. Diese enthält sowohl Metainformationen über den Erfolg der Anfrage als auch die eigentlichen Inhalte der Webseite.
