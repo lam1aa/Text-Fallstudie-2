@@ -43,6 +43,8 @@ parts:
     - file: corpus_analysis/corpus-analysis_intro
     - file: corpus_analysis/corpus-analysis_text_complexity
     - file: corpus_analysis/corpus-analysis_analysis
+    - file: corpus_analysis/corpus-analysis_visualisation-explanation
+    - file: corpus_analysis/corpus-analysis_visualization
     - file: corpus_analysis/corpus-analysis_resumee
   - caption: Reflexion und Resümee
     chapters:
