@@ -18,7 +18,7 @@ parts:
     - file: corpus_collection/corpus-collection_metadata
     - file: corpus_collection/corpus-collection_building-our-corpus
     - file: corpus_collection/corpus-collection_summary
-  - caption: Texte als digitale Objekt. Einführung in HTML
+  - caption: Texte als digitale Objekte. Einführung in HTML
     chapters:
     - file: html_intro/html-intro_intro
     - file: html_intro/html-intro_text_as_digital_objects
