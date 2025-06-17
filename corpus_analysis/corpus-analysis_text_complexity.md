@@ -1,5 +1,5 @@
 (corpus-analysis_text_complexity)=
-# Textkomplexität und Visualisierung
+# Textkomplexität
 ```{admonition} Feinlernziel(e) dieses Kapitels
 * Sie können die Textmaße (Wortlänge, Satzlänge etc.), die zur Berechnung der Textkomplexität dienen, aufzählen.
 * Sie kennen verschiedene Methoden zur Berechnung der Textkomplexität und können die Vor- und Nachteile der Methoden aufzeigen.
