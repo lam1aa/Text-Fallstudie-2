@@ -17,7 +17,7 @@ kernelspec:
 Dieses Kapitel erklärt **Schritt für Schritt**, wie das Korpus aus Pressemitteilungen des Landes Berlin erzeugt wurde. Die vollständige, ausführbare Pipeline findest du im Notebook `corpus_building/corpus_building_mass_scraping_press-releases.ipynb`.
 ```
 
-## 1 Ziel und Herangehensweise
+## 1. Ziel und Herangehensweise beim Aufbau des Forschungskorpus
 
 Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. Dafür nutzen wir sämtliche online publizierten Pressemitteilungen, die direkt der Berliner **Exekutive** zuzuordnen sind. Der Beobachtungszeitraum reicht von **2001 bis 24. 06. 2025** (Datum der Datenerhebung).
 
@@ -27,7 +27,7 @@ Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. D
 * heterogene Absender → Vergleich von Stilen
 * frei zugänglich & wohldefiniertes HTML
 
-## 2 Ein- und Ausschlusskriterien
+## 2. Ein- und Ausschlusskriterien
 
 ### Eingeschlossene Absender
 
@@ -44,9 +44,9 @@ Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. D
 | **Justiz / Strafverfolgung (Judikative)** | Polizei Berlin • Kammergericht • Staatsanwaltschaften |
 | **Fachbehörden mit eigenem Rechtsstatus** | Landesamt für Einwanderung • Rechnungshof …           |
 
-*Begründung*: Diese Einheiten unterliegen nicht der unmittelbaren Weisungsbefugnis des Senats; ihr Kommunikationsstil folgt anderen Normen.
+*Begründung*: Diese Einheiten unterliegen nicht der unmittelbaren Weisungsbefugnis des Senats.
 
-## 3 Technischer Workflow
+<!-- ## 3 Technischer Workflow
 
 1. **Filter setzen** im Online‑Formular → alle oben aufgeführten Institutionen anhaken (siehe URL in der Notebook‑Konstante `SEARCH_ROOT`).
 2. **Letzte Ergebnisseite ermitteln** via CSS‑Selektor `li.pager-skip-to-last a` (Stand Juni 2025: Seite 5239).
@@ -61,9 +61,9 @@ Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. D
 ```{note}
 404‑Seiten werden nach drei Fehlversuchen übersprungen und im Log markiert.
 ```
+-->
 
-
-## 4 Metadatenstruktur
+## 3 Metadatenstruktur
 
 Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Feldern – damit lässt sich das Korpus bequem filtern, sortieren oder mit externen Daten anreichern.
 
@@ -84,8 +84,7 @@ Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Fe
 > * `source` dient zur Gruppierung (z. B. Bezirksamt vs. Senatsverwaltung);
 > * `n_tokens` hilft beim Aufspüren von Ausreißern (extrem kurze oder sehr lange Mitteilungen).
 
-
-### Korpusumfang (23. 06. 2025)
+## 4. Korpusumfang (23. 06. 2025)
 
 * Pressemitteilungen: **≈ 51 800**
 * Zeitspanne: 2001 – 2025
@@ -93,13 +92,7 @@ Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Fe
 
 Dies ist unser Forschungskorpus 🚀
 
-<!-- 
-
-## 5 Nachbearbeitung
-
-Ein separates Skript entfernt Navigations‑ und Footer‑Artefakte aus allen TXT‑Dateien. Dabei wird nur der Block innerhalb von `#layout-grid__area--maincontent` beibehalten.
-
-## 6 Reproduzierbarkeit
+## 5. Reproduzierbarkeit
 
 Der komplette Prozess läuft in Binder/Colab ohne Anpassungen. Zur Aktualisierung genügen zwei Zeilen:
 
@@ -107,4 +100,12 @@ Der komplette Prozess läuft in Binder/Colab ohne Anpassungen. Zur Aktualisierun
 from corpus_building.corpus_building_mass_scraping_press_releases import crawl_all_pages
 crawl_all_pages()
 ```
+
+<!-- 
+
+## 5 Nachbearbeitung
+
+Ein separates Skript entfernt Navigations‑ und Footer‑Artefakte aus allen TXT‑Dateien. Dabei wird nur der Block innerhalb von `#layout-grid__area--maincontent` beibehalten.
+
+## 
 -->
