@@ -2,6 +2,7 @@
 # Einführung 
 
 ```{admonition} Groblernziel dieses Kapitels
+Die Lernenden können den Quellcode einer Website untersuchen, geeignete HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode für die Extraktion verwendet werden muss. 
 ```
 
 ## Zu diesem Kapitel
