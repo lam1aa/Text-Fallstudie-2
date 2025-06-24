@@ -1,5 +1,5 @@
 (corpus-building_intro)=
-# Korpusaufbau
+# Einführung 
 
 ```{admonition} Groblernziel dieses Kapitels
 ```
