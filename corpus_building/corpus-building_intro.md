@@ -14,3 +14,6 @@ name: Flussdiagramm der Fallstudie
 ---
 Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
 ```
+
+Im Kapitel ['Aufbau des Forschungskorpus'](../corpus_collection/corpus-collection_building-our-corpus) haben wir die Auswahl- und Filterprozesse für unser Korpus von Pressemitteilungen beschrieben. Nun geht es darum, das Korpus mithilfe von Scraping-Tools und HTML-Kenntnissen zu extrahieren. 
+<!-- In the chapter ['Aufbau des Forschungskorpus'](../corpus_collection/corpus-collection_building-our-corpus.html#aufbau-des-forschungskorpus) we have outlined the selection & filtering process for our corpus of press releases. Now it is time to imlement scraping of tha corpus using scraping tools and knowledge of HTML. -->
