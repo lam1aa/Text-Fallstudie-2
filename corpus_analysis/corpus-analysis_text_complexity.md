@@ -6,33 +6,21 @@
 * Sie können das Konzept eines Liniendiagramms erklären.
 ```
 
-## 1. Forschungsfrage und Operationalisierung 
+## Forschungsfrage und Operationalisierung 
 
 Wir gehen von folgender Forschungsfrage aus: 
 `````{admonition} Forschungsfrage
 :class: tip
-Lässt sich eine Verminderung der sprachlichen Komplexität in der Kommunikation des Berliner Senats mit der Öffenlichkeit feststellen?
+Wie entwickelt sich die kommunikative Barrierearmut des Berliner Senats im Zeitraum von 2011 bis 2024?
 `````
 Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zunächst wie folgt **operationalisiert**:
-1. die **Kommunikation des Berliner Senats mit der Öffenlichkeit** wird durch das Korpus, bestehend aus Pressemitteilungen, erfasst
-2. die **die sprachliche Komplexität** wird über Textkomplexitätsmaße errechnet
-3. die **Verminderung** der Textkomplexität wird durch die sich über Zeit verändernde Textkomplexität untersucht.
+1. die **Kommunikation des Berliner Senats** wird durch das Korpus, bestehend aus Pressemitteilungen, erfasst
+2. die **Barrierearmut** wird über Lesarbeitsindice errechnet
 
-## 2. Textkomplexitätsmaße
+## Lesbarkeitsindice
+Wie im Kapitel ["Operationalisierung"](research-question_operationalization) beschrieben, kann Leichte Sprache in drei Dimension unterschieden werden. Im folgenden gehen wir genauer darauf ein, welche Indikatoren auf Wort- und Satzebene eine Rolle bei der Berechnung der Lesbarkeitsindice spielen. 
 
-### 2.1 Was ist Textkomplexität
-Aus psychologischer Sicht beschreibt Textkomplexität die Schwierigkeit, mit der ein Text für Lesende zu verstehen ist. {cite:p}`schnotz2010textverstehen` unterscheidet drei Repräsentationsebenen des Textverstehens:
-1. die Ebene der Textoberfläche bezeichnet die sprachliche Komplexität (Satzlänge, Satzstruktur, Wortwahl)
-2. die Ebene der Textbasis bezeichnet die semantische Komplexität (die Propositionen eines Texts und deren Zusammenhang)
-3. die Ebene des mentalen Modell bezeichnet die mentale Repräsentation des im Text beschriebenen Sachverhalts, der auf Ebene 1 und 2 sowie auf Weltwissen der Lesenden aufbaut. 
-
-Da wir eine computationelle Untersuchung anstreben und diese transparent und somit nachvollziehbar, also besser reproduzierbar sein sollte, beschränken wir die Analyse auf Ebene 1. Unser Untersuchungsgegenstand ist demnach die Textoberfläche und schließt semantische Komponenten aus. Etablierte Algorithmen (z.B. FLESCH) zur Berechnung der Textkomplexität oder Lesbarkeit, die auf der Textoberfläche arbeiten, benutzen eine Reihe von linguistischen Markern und errechnen daraus einen Score, der häufig auf Bildungsniveaus bzw. Jahrgangsstufen abgebildet wird. 
-Mit Hilfe der Algorithmen kann die Komplexität von Texten verglichen und so z.B. festgestellt werden, welcher Text sich eignet, um in einer bestimmten Klassenstufe gelesen zu werden.
-
-### 2.2 Linguistische Marker 
-Zur Untersuchung der Textoberfläche lassen sich unterschiedliche linguistische Marker heranziehen. Die meisten Lesarbeitsindice basieren auf einer Kombination der folgenden Marker:
-
-#### Wortebene
+### Wortebene
 * **Länge** der Wörter:
   * wird errechnet durch Anzahl der Buchstaben
   * Annahme: Je weniger lange Wörter ein Text enthält, desto leichter ist der Text zu verstehen. 
@@ -47,7 +35,7 @@ Zur Untersuchung der Textoberfläche lassen sich unterschiedliche linguistische 
   * wird ermittelt anhand eines vordefnierten Wörterbuchs, das leichte Wörter enthält. Wenn ein Wort nicht im Wörterbuch vorkommt, gilt es als schwer. 
   * Annahme: Je weniger schwere Wörter ein Text enthält, desto leicht ist der Text zu verstehen. 
 
-#### Satzebene
+### Satzebene
 Zur Berechnung der Komplexität wird die **Satzlänge** auf unterschiedliche Weise einbezogen:
 * Satzlänge des Texts
   * wird errechnet durch die Anzahl an Wörtern in einem Satz. 
@@ -171,9 +159,8 @@ Analog zum ARI, entspricht der Index dem US-amerikanischen Schuljahr, das zum Ve
 
 Der Satz wird als *sehr schwierig* eingestuft.
 
-### 2.4 Komplexere Methoden zur Berechnung der Textkomplexität
+### Komplexere Methoden zur Berechnung der Textkomplexität
 
-## 3. Zeitlicher Verlauf und visuelle Darstellung 
 
 
 
