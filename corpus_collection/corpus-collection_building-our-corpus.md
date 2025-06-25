@@ -12,103 +12,100 @@ kernelspec:
 
 (corpus-collection_building-our-corpus)=
 # Aufbau des Forschungskorpus
-Um das Korpus für unser Forschungsprojekt aufzubauen, müssen nun drei Punkte abgearbeitet werden: 
-1. Das **Korpuskonzept**, also auch die Sammlungsstrategie, muss ausgearbeitet und im besten Fall in den Korpus-Metadaten festgehalten werden.
-2. Die **Elemente des Korpus** müssen festgelegt und ebenfalls mit zumindest basalen Metadaten beschrieben werden.
-3. Die **Sammlung der Elemente** muss durchgeführt werden. 
 
-
-## 1. Korpuskonzept
-Als Untersuchungsgegenstand wurde [oben](research-question_operationalization) mit "vom Senat veröffentlichten Pressemitteilungen" angegeben, wobei wir uns auf digital veröffentliche Pressemitteilungen beschränken wollen. Auf der [Überblicksseite](https://www.berlin.de/presse/pressemitteilungen/index/search/page/) des Presseportals Berlin finden sich die ersten Pressemitteilungen aus Senatsverwaltungen und den Bezirksämtern im Jahr 2011. Dies setzen wir als Startjahr. Das Enddatum fällt mit dem Tag der Datensammlung (01.10.2024) zusammen. Unsere Sammlungsmethodik ist somit opportunistisch, da wir alle digital verfügbaren Pressemitteilungen bis zum Zeitpunkt der Sammlung in das Korpus aufnehmen. Insgesamt wurden in diesem Zeitraum 66.034 Pressemitteilungen veröffentlicht. 
-
-Am Ende des weiter unten genauer erläuterten Korpusaufbau-Prozesses stand damit schließlich ein Korpus, das sich mit folgenden Metadaten beschreiben lässt: 
-- **[DC.title](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/title/)**: "Zeitungskorpus zur Spanischen Grippe in Berlin, 1918/1919"
-- **[DC.description](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/description/)**: "Sammlung sämtlicher verfügbarer Morgenausgaben der beiden Berliner Zeitungen "Vossische" und "Berliner Morgenpost aus den Jahren 1918 und 1919"
-- **[DC.creator](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/creator/)**: "Henny Sluyter-Gäthje, Daniil Skorinkin, Peer Trilcke für QUADRIGA. Berlin-Brandenburgische Datenkompetenzzentrum für Digital Humanities und Verwaltungswissenschaft"
-- **[DC.publisher](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/publisher/)**: "["ZEitungsinFormationssYStem der Staatsbibliothek zu Berlin"](https://zefys.staatsbibliothek-berlin.de/)"
-- **[DC.date](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/date/)**: "2024-06-01"
-- **[DC.format](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/)**: "PDF"
-- **[DC.language](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/language/)**: "Deutsch"
-- **[DC.subject](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/)**: "Geschichte, Medienwissenschaft"
-- **[DC.coverage](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/coverage/)**: "1918-01-01 bis 1919-12-31, Berlin"
-- **[DC.identifier:](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/identifier/)**: "QUADRIGA\_FS-Text-01\_Data01_Corpus-Table"
-
-## 2. Elemente des Korpus
-Mit dem eben ausgeführten Korpuskonzept sind auch die Elemente des Korpus definiert. Wir entscheiden uns für ein basales Metadatenschema, das folgende Felder umfasst:
-
-- ID: `DC.identifier`
-- Name der Zeitung: `DC.publisher`
-- Datum: `DC.date`
-- URL mit Herkunft der Datei: `DC.source`
-
-Navigiert man im ZEFYS-Portal, wird schnell die Struktur von deren Datenhaltung ersichtlich, die sich für die semi-automatische Erstellung einer die Korpus-Elemente beschreibenden Metadaten-Tabelle nutzen lässt. 
-
-- Unter [https://zefys.staatsbibliothek-berlin.de/list/title/zdb/27112366/-/1918/#jan ](https://zefys.staatsbibliothek-berlin.de/list/title/zdb/27112366/-/1918/#jan )findet man z.B. eine Übersicht für den Monat Januar 1918. 
-- Ruft man die Ausgabe vom 1. Januar 1918 auf, gelangt man zur Ansicht in einem Viewer: [https://dfg-viewer.de/show/?set%5Bmets%5D=https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.xml](https://dfg-viewer.de/show/?set%5Bmets%5D=https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.xml)
-- Dort kann man über ein Klick in der oberen Menüleiste auch das gesamte PDF über einen API-Call zum Image Server der Staatsbibliothek aufrufen. Die dafür verwendete URL lautet [https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.pdf)
-
-Wie Stichproben zeigen, werden die Links des ZEFYS-Portals erfreulich systematisch gebildet. Sie setzen sich zusammen aus 
-
-- `https://content.staatsbibliothek-berlin.de/zefys/` – Angabe des Image-Servers und dem Endpunkt für ZEFYS
-- `SNP27112366` – einer Zeichenkette mit der ID der Zeitung
-- `19180101` – einer Zeichenkette für das Datum
-- `0-0-0-0` – einer Zeichenkette, die die Ausgabe benennt; weitere Ausgaben weisen die Zeichenkette `1-0-0-0` etc. auf. ZEFYS vergibt in der Regel `0-0-0-0` für die Morgenausgabe. Wir nehmen stehts die `0-0-0-0`-Datei. 
-
-Die Analyse der ZEFYS API macht es möglich, unsere Metadaten-Tabelle semi-automatisch etwa mit Excel oder Open Office zu befüllen. Ausgehend vom 
-
-- Wissen über die ID der Zeitung (`SNP27112366` für die "Vossin" und `SNP2719372X` für die "Berliner Morgenpost"), 
-- unserer Festlegung des Zeitraums, also Daten von `19180101` bis `19191231`
-- und der Kenntnis der anderen Link-Bestandteile 
-
-können wir die URLs bauen und parallel die anderen Datenfelder befüllen. Die so entstehende Tabelle sieht folgendermaßen aus: 
-
-| DC.identifier                        | DC.publisher        | DC.date     | DC.source                                                                          |
-|--------------------------------------|---------------------|-------------|------------------------------------------------------------------------------------|
-| SNP2719372X-19180101-0-0-0-0         | Berliner Morgenpost | 1918-01-01  | [https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf) |
-| SNP2719372X-19180102-0-0-0-0         | Berliner Morgenpost | 1918-01-02  | [https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180102-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180102-0-0-0-0.pdf) |
-| SNP2719372X-19180103-0-0-0-0         | Berliner Morgenpost | 1918-01-03  | [https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180103-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180103-0-0-0-0.pdf) |
-| SNP2719372X-19180104-0-0-0-0         | Berliner Morgenpost | 1918-01-04  | [https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180104-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180104-0-0-0-0.pdf) |
-| …                                    | …                   | …           | …                                                                                  |
-| SNP27112366-19180101-0-0-0-0         | Vossische Zeitung           | 1918-01-01  | [https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180101-0-0-0-0.pdf) |
-| SNP27112366-19180102-0-0-0-0         | Vossische Zeitung          | 1918-01-02  | [https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180102-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180102-0-0-0-0.pdf) |
-| SNP27112366-19180103-0-0-0-0         | Vossische Zeitung           | 1918-01-03  | [https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180103-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180103-0-0-0-0.pdf) |
-| SNP27112366-19180104-0-0-0-0         | Vossische Zeitung           | 1918-01-04  | [https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180104-0-0-0-0.pdf](https://content.staatsbibliothek-berlin.de/zefys/SNP27112366-19180104-0-0-0-0.pdf) |
-
-```{code-cell} python3
-import pandas as pd
-df = pd.read_csv("../data/metadata/QUADRIGA_FS-Text-01_Data01_Corpus-Table.csv", sep=";")
-df.head()
+```{important}
+Dieses Kapitel erklärt **Schritt für Schritt**, wie das Korpus aus Pressemitteilungen des Landes Berlin erzeugt wurde. Die vollständige, ausführbare Pipeline findest du im Notebook `corpus_building/corpus_building_mass_scraping_press-releases.ipynb`.
 ```
 
-Die vollständige CSV-Datei kann [hier](https://github.com/dh-network/quadriga/blob/ec3334a4b18750e5bb10c25b2badcbfbbf18592c/data/metadata/QUADRIGA_FS-Text-01_Data01_Corpus-Table.csv) heruntergeladen werden.
+## 1. Ziel und Herangehensweise beim Aufbau des Forschungskorpus
 
-## 3. Sammlung der Elemente
-Die CSV-Datei, die sämtliche Elemente Korpus aufführt, listet auch jeweils einen Link zur PDF-Datei des Korpus. Dieser Link hat stets die Form: 
+Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. Dafür nutzen wir sämtliche online publizierten Pressemitteilungen, die direkt der Berliner **Exekutive** zuzuordnen sind. Der Beobachtungszeitraum reicht von **2001 bis 24. 06. 2025** (Datum der Datenerhebung).
 
+*Vorteile dieser Quelle*
+
+* kontinuierlicher Publikationsstrom → Zeitreihenanalyse
+* heterogene Absender → Vergleich von Stilen
+* frei zugänglich & wohldefiniertes HTML
+
+## 2. Ein- und Ausschlusskriterien
+
+### Eingeschlossene Absender
+
+| Kategorie              | Behörden / Institutionen                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Senatsverwaltungen** | Presse‑ & Informationsamt • Bildung, Jugend & Familie • Finanzen • Inneres & Sport • Arbeit, Soziales, Gleichstellung, Integration, Vielfalt & Antidiskriminierung • Justiz & Verbraucherschutz • Kultur & Gesellschaftlicher Zusammenhalt • Stadtentwicklung, Bauen & Wohnen • Mobilität, Verkehr, Klimaschutz & Umwelt • Wirtschaft, Energie & Betriebe • Wissenschaft, Gesundheit & Pflege |
+| **Bezirksämter**       | Charlottenburg‑Wilmersdorf • Friedrichshain‑Kreuzberg • Lichtenberg • Marzahn‑Hellersdorf • Mitte • Neukölln • Pankow • Reinickendorf • Spandau • Steglitz‑Zehlendorf • Tempelhof‑Schöneberg • Treptow‑Köpenick                                                                                                                                                                               |
+| **Landesbeauftragte**  | Integration & Migration • Aufarbeitung der SED‑Diktatur • Bürger‑ & Polizeibeauftragter • Pflegebeauftragte • Tierschutzbeauftragte • Landeswahlleitung                                                                                                                                                                                                                                       |
+
+### Ausgeschlossene Absender
+
+| Grund                                     | Beispiele                                             |
+| ----------------------------------------- | ----------------------------------------------------- |
+| **Justiz / Strafverfolgung (Judikative)** | Polizei Berlin • Kammergericht • Staatsanwaltschaften |
+| **Fachbehörden mit eigenem Rechtsstatus** | Landesamt für Einwanderung • Rechnungshof …           |
+
+*Begründung*: Diese Einheiten unterliegen nicht der unmittelbaren Weisungsbefugnis des Senats.
+
+<!-- ## 3 Technischer Workflow
+
+1. **Filter setzen** im Online‑Formular → alle oben aufgeführten Institutionen anhaken (siehe URL in der Notebook‑Konstante `SEARCH_ROOT`).
+2. **Letzte Ergebnisseite ermitteln** via CSS‑Selektor `li.pager-skip-to-last a` (Stand Juni 2025: Seite 5239).
+3. **Pagination ablaufen**
+
+   * Trefferzeilen auslesen (`table tbody tr`).
+   * Detailseiten abrufen; Haupttext steckt verlässlich in `#layout-grid__area--maincontent` (Fallback: `#article` oder `#content`).
+   * HTML + bereinigter Plain‑Text unter `data/html/<id>.html` bzw. `data/txt/<id>.txt` speichern.
+   * Metadaten (Datum, Titel, Ressort, Dateinamen, Token‑Zahl) inkrementell in `data/metadata.csv` anhängen (Autosave alle 100 Datensätze).
+4. **Resume‑Fähigkeit**: Vor jedem Lauf werden vorhandene UIDs aus der CSV eingelesen → keine Dubletten, unterbrochene Crawls lassen sich fortsetzen.
+
+```{note}
+404‑Seiten werden nach drei Fehlversuchen übersprungen und im Log markiert.
 ```
-https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf
+-->
 
-```
-Ruft man den [Link](https://content.staatsbibliothek-berlin.de/zefys/SNP2719372X-19180101-0-0-0-0.pdf) etwa im Browser auf, wird die PDF angezeigt oder heruntergeladen. Auf diese Weise ließen sich sukzessive, Klick für Klick, sämtliche Elemente des Korpus sammeln. Dieser Prozess kann dabei automatisiert werden. 
+## 3 Metadatenstruktur
 
-Dafür erstellen wir aus der CSV-Datei zunächst eine einfache Link-Liste mit allen Links und speichern diese als TXT-Datei, der wir in unserem Fall den Dateinamen "QUADRIGA_FS-Text-01_Data01_Link-List.txt" geben. Diese Datei lässt sich [hier](https://github.com/dh-network/quadriga/blob/ec3334a4b18750e5bb10c25b2badcbfbbf18592c/data/metadata/QUADRIGA_FS-Text-01_Data01_Link-List.txt) herunterladen.
+Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Feldern – damit lässt sich das Korpus bequem filtern, sortieren oder mit externen Daten anreichern.
 
-Sofern Sie mit der PowerShell (Windows) oder dem Terminal Ihres Computers umgehen können, können Sie nun Folgendes machen: Legen Sie Link-Liste in einem Ordner ab und navigieren Sie in der PowerShell/im Terminal in diesen Ordner. 
+| Feld            | Datentyp                       | Bedeutung                                                                                              |
+| --------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `id`            | Integer (string‑repräsentiert) | Fortlaufende Kennziffer aus der URL (`…/pressemitteilung.<id>.php`) – dient als Primärschlüssel.       |
+| `url`           | String                         | Vollständige Adresse der Detailseite (permanent).                                                      |
+| `date`          | Datumsstring `DD.MM.YYYY`      | Veröffentlichungsdatum, eins‑zu‑eins aus der Trefferliste (kann später als `datetime` geparst werden). |
+| `title`         | String                         | Originalüberschrift (UTF‑8, inklusive Sonderzeichen).                                                  |
+| `source`        | String                         | Herausgebende Stelle = Ressort/Bezirksamt/Landesbeauftragte.                                           |
+| `filename_html` | String                         | Dateiname der gespeicherten Roh‑HTML (`<id>.html`).                                                    |
+| `filename`      | String                         | Dateiname der bereinigten Plain‑Text‑Fassung (`<id>.txt`).                                             |
+| `n_tokens`      | Integer                        | Grober Umfangsindikator = Anzahl der whitespace‑getrennten Token im Plain‑Text.                        |
 
-Mac-Nutzer-innen führen nun folgenden Befehl aus: 
-```
-xargs -n 1 curl -O < QUADRIGA_FS-Text-01_Data01_Link-List.txt
-```
-Windows-Nutzer:innen führen in der PowerShell folgenden Befehl aus
+> **Praxisnutzen**
+>
+> * `date` erlaubt Zeitreihen‑Plots;
+> * `source` dient zur Gruppierung (z. B. Bezirksamt vs. Senatsverwaltung);
+> * `n_tokens` hilft beim Aufspüren von Ausreißern (extrem kurze oder sehr lange Mitteilungen).
 
-```
-Get-Content QUADRIGA_FS-Text-01_Data01_Link-List.txt | ForEach-Object {
-    Invoke-WebRequest -Uri $_ -OutFile (Split-Path $_ -Leaf)
-}
-```
+## 4. Korpusumfang (23. 06. 2025)
 
-Es startet ein Download, der – sofern er komplett durchläuft - am Ende 1.328 Dateien im Umfang von 104,7 GB einsammelt. 
+* Pressemitteilungen: **≈ 51 800**
+* Zeitspanne: 2001 – 2025
+* Ø Länge: 430 Tokens (Median 394)
 
 Dies ist unser Forschungskorpus 🚀
 
+## 5. Reproduzierbarkeit
 
+Der komplette Prozess läuft in Binder/Colab ohne Anpassungen. Zur Aktualisierung genügen zwei Zeilen:
+
+```
+from corpus_building.corpus_building_mass_scraping_press_releases import crawl_all_pages
+crawl_all_pages()
+```
+
+<!-- 
+
+## 5 Nachbearbeitung
+
+Ein separates Skript entfernt Navigations‑ und Footer‑Artefakte aus allen TXT‑Dateien. Dabei wird nur der Block innerhalb von `#layout-grid__area--maincontent` beibehalten.
+
+## 
+-->

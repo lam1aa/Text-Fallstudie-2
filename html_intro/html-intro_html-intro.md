@@ -54,7 +54,28 @@ HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) 
 <img src="bild.jpg" alt="Beispielbild">
 ```
 
-## 3. Listen und Tabellen
+### 3. HTML-Attribute
+
+HTML-Tags können Attribute enthalten, die zusätzliche Informationen bereitstellen. Ein Attribut wird im Start-Tag angegeben und besteht aus einem Namen und einem Wert:
+
+```html
+<tagname attributname="wert">Inhalt</tagname>
+```
+
+Beispiele:
+
+```html
+<a href="https://www.example.com" target="_blank">Öffne Link in neuem Tab</a>
+<img src="bild.jpg" alt="Beispielbild" width="300">
+```
+
+Häufig verwendete Attribute sind:
+
+* `href` bei Links
+* `src`, `alt`, `width`, `height` bei Bildern
+* `id`, `class` zur Identifizierung und Gestaltung per CSS
+
+## 4. Listen und Tabellen
 
 ### a) Ungeordnete und geordnete Listen
 - `<ul>`: Eine Liste mit Punkten.
@@ -87,7 +108,22 @@ HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) 
 </table>
 ```
 
-## 4. HTML und CSS
+### 5. Hierarchische Struktur in HTML
+
+HTML-Dokumente bestehen aus verschachtelten (nested) Elementen. Das bedeutet, dass Tags innerhalb anderer Tags liegen können. Diese hierarchische Struktur bildet einen sogenannten DOM-Baum (Document Object Model), der von Browsern oder Programmen zum Analysieren und Verarbeiten genutzt wird.
+
+Beispiel:
+
+```html
+<div>
+    <h2>Überschrift</h2>
+    <p>Ein Absatz mit <a href="#">einem Link</a> darin.</p>
+</div>
+```
+
+Hier liegt das `<a>`-Element innerhalb des `<p>`-Elements, und beide liegen wiederum im `<div>`-Element. Solche Strukturen sind wichtig, um Webseiten korrekt zu gestalten und um beim Scraping gezielt Inhalte auszuwählen.
+
+## 6. HTML und CSS
 HTML strukturiert die Inhalte, aber für das Design wird CSS (Cascading Style Sheets) verwendet. CSS kann direkt in HTML eingefügt werden:
 
 ```html
@@ -102,4 +138,4 @@ HTML ist einfach zu lernen und bildet die Grundlage jeder Webseite. Mit HTML kan
 
 ### Video: eine 3-minütige HTML-Einführung von W3C
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/it1rTvBcfRg?si=WRkTaxnrprLZM9RP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/it1rTvBcfRg?si=eGiQ0_jPRctkv2MV&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
