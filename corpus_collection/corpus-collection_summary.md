@@ -1,6 +1,6 @@
 # Resümee
 
-```{admonition}
+```{admonition} Key points des Kapitels
 :class: keypoint
 
 **Korpus als epistemische Objekt**
