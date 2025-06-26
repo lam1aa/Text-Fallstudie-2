@@ -1,6 +1,7 @@
 # Resümee
 
 ```{admonition}
+:class: keypoint
 
 **Korpus als epistemische Objekt**
 
