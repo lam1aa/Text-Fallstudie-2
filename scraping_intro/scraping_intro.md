@@ -10,8 +10,7 @@ Nachdem das [vorherige Kapitel in HTML eingeführt](html-intro_html-intro) hat, 
 
 ```{figure} ../book_images/flow-chart_scraping.png
 ---
-height:
-name: Flussdiagramm der Fallstudie
+name: Flussdiagramm der Fallstudie – Scraping
 ---
 Flussdiagramm der Fallstudie. Wir befinden uns nun im dritten Arbeitspaket.
 ```

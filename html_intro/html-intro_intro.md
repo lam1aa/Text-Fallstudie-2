@@ -12,8 +12,7 @@ In den vorherigen Kapitel wurde zum einen die [Operationalisierung](research-que
 
 ```{figure} ../book_images/flow-chart_html.png
 ---
-height:
-name: Flussdiagramm der Fallstudie
+name: Flussdiagramm der Fallstudie – HTML
 ---
 Flussdiagramm der Fallstudie. Wir befinden uns nun im dritten Arbeitspaket.
 ```

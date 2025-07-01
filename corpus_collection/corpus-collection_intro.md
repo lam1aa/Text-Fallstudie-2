@@ -10,8 +10,7 @@ Nachdem im [vorherigen Kapitel](introduction_intro) die **Fragestellung** dieser
 
 ```{figure} ../book_images/flow-chart_corpus-collection.png
 ---
-height:
-name: Flussdiagramm der Fallstudie
+name: Flussdiagramm der Fallstudie – Korpora als epistemische Objekte
 ---
 Flussdiagramm der Fallstudie. Wir befinden uns nun im zweiten Arbeitspaket.
 ```

@@ -9,8 +9,7 @@ Nachdem wir im vorherigem Kapitel ein Korpus gescraped und aus den HTML-Dokument
 
 ```{figure} ../book_images/flow-chart_corpus-analysis.png
 ---
-height:
-name: Flussdiagramm der Fallstudie
+name: Flussdiagramm der Fallstudie – Korpusanalyse
 ---
 Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
 ```
