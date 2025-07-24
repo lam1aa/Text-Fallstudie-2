@@ -3,7 +3,7 @@
 
 title: Kommunikative Barrierefreiheit des Berliner Senats
 author: QUADRIGA
-logo: assets/Text2Logo.jpg
+logo: assets/Text2Logo.png
 copyright: "2024, QUADRIGA"
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md, LICENSE.md, useful_documentation.md]
 
