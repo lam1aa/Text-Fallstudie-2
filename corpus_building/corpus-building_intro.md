@@ -1,5 +1,20 @@
 (corpus-building_intro)=
-# Einführung 
+# Korpusaufbau
+````{margin}
+```{admonition} Fragen oder Feedback 
+:class: frage-feedback
+
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+    Stellen Sie eine Frage
+</a> <br>
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-2/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+    Geben Sie uns Feedback
+</a>
+
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+
+```
+```` 
 
 ```{admonition} Groblernziel dieses Kapitels
 Die Lernenden können den Quellcode einer Website untersuchen, geeignete HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode für die Extraktion verwendet werden muss. 

@@ -1,5 +1,5 @@
 (research-question_intro)=
-# Einführung
+# Fragestellung und Operationalisierung. Einführung in die Fallstudie
 ```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
 Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der "Operationalisierung"

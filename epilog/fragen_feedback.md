@@ -1,8 +1,11 @@
-(reflection_reflection)=
-# Reflexion
-````{margin}
-```{admonition} Fragen oder Feedback 
-:class: frage-feedback
+---
+lang: de-DE
+---
+(fragen_feedback)=
+# Fragen und Feedback
+
+Wir freuen uns auf Ihre Rückmeldungen!
+Fragen oder Feedback?
 
 <a href="https://github.com/quadriga-dk/Text-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
     Stellen Sie eine Frage
@@ -12,6 +15,3 @@
 </a>
 
 Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
-
-```
-````
