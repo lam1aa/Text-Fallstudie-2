@@ -20,8 +20,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut.
 ```
 
-## Zu diesem Kapitel
-Nachdem im [vorherigen Kapitel](introduction_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) sich die "vom Senat veröffentlichten Pressemitteilungen" untersuchen lassen. 
+Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) sich die "vom Senat veröffentlichten Pressemitteilungen" untersuchen lassen. 
 
 ```{figure} ../book_images/flow-chart_corpus-collection.png
 ---

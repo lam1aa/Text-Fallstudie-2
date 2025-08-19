@@ -10,7 +10,7 @@
 
 Wir gehen von folgender Forschungsfrage aus: 
 `````{admonition} Forschungsfrage
-:class: tip
+:class: keypoint
 Wie entwickelt sich die kommunikative Barrierearmut des Berliner Senats im Zeitraum von 2011 bis 2024?
 `````
 Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zunächst wie folgt **operationalisiert**:

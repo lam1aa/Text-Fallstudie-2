@@ -20,7 +20,6 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Die Lernenden können den Quellcode einer Website untersuchen, geeignete HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode für die Extraktion verwendet werden muss. 
 ```
 
-## Zu diesem Kapitel
 Nachdem wir uns mit HTTP-Anfragen, Web-Scraping und HTML beschäftigt haben, kombinieren wir in diesem Kapitel dieses Wissen, um den Korpus von mehr als 50.000 Pressemitteilungen von berlin.de zusammenzustellen.
 
 ```{figure} ../book_images/flow-chart_corpus-building.png

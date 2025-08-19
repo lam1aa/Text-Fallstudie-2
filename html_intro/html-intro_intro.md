@@ -22,7 +22,6 @@ Struktur von HTML erklären und die Funktion von ausgewählte HTML-Tags benennen
 HTML-Tags zur Extraktion von Plain Text aus HTML aufzählen.
 ```
 
-## Zu diesem Kapitel
 In den vorherigen Kapitel wurde zum einen die [Operationalisierung](research-question_operationalization) der Fragestellung erläutert wurde und zum anderen in das [Korpuskonzept](corpus-collection_building-our-corpus) eingeführt. Da der Senat die Pressemitteilungen in Form von Websites veröffentlicht, diese aber meist noch weitere Informationen enthalten, geht es in diesem Kapitel, wie der Text einer Website strukturiert extrahiert werden kann.
 
 ```{figure} ../book_images/flow-chart_html.png

@@ -5,7 +5,6 @@
 Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der "Operationalisierung"
 ```
 
-## Zu diesem Kapitel
 Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet. 
 
 ```{figure} ../book_images/flow-chart_research-question.png

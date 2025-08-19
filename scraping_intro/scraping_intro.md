@@ -20,7 +20,6 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Sie können HTTP-Abfragen konzeptionell erklären und unterschiedliche Methoden zur automatisierten Abfrage von Websites unterscheiden sowie Vor- und Nachteile benennen.
 ```
 
-## Zu diesem Kapitel  
 Nachdem das [vorherige Kapitel in HTML eingeführt](html-intro_html-intro) hat, geht es in diesem Kapitel um die automatisierten Extraktion, dem sogenannten **Scraping**, von Webinhalten zur Erstellung des Forschungskorpus. 
 
 ```{figure} ../book_images/flow-chart_scraping.png
