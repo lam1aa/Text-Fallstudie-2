@@ -1,7 +1,6 @@
 (research-question_research-question)=
 # Fragestellung
-
-In den letzten fünfzehn Jahren hat die Bedeutung von barrierefreier Kommunikation {cite:p}`maas_handbuch_2019` im Allgemeinen und Leichter Sprache im Besonderen in der öffentlichen Verwaltung erheblich zugenommen. Im Kontext der Umsetzung der UN-Behindertenrechtskonvention, die seit ihrer Ratifizierung in Deutschland 2009 verbindliches Recht ist, ergibt sich eine Verpflichtung zur barrierearmen Kommunikation, bei der leichte Sprache – als eine „verständlichkeitsoptimierte Varietät" ({cite:p}`maas_leichte_2019`, S. 252) des Deutschen – eine wichtige Rolle spielt. In Form zahlreicher Regelwerke und Handreichungen (etwa {cite:p}`netzwerk_leichte_sprache_leichte_2014`, {cite:p}`maas_ratgeber_2016`), seit März 2025 auch in der [DIN SPEC „Empfehlungen für Deutsche Leichte Sprache“](https://www.dinmedia.de/de/technische-regel/din-spec-33429/387728031), wird die Verwendung Leichter Sprache diskursiv, konzeptionell und pragmatisch erschlossen. Neben der rechtlichen Dimension betrifft die Verwendung von Leichter Sprache in der Kommunikation mit und von Behörden dabei auch Grundfragen der gesellschaftlichen Teilhabe. Dies geschieht im Kontext einer gesteigerten gesellschaftlichen Aufmerksamkeit für das Konzept der Leichten Sprache, die sich exemplarisch etwa in der markanten Zunahme der Häufigkeit des Begriffs im Google Books-Korpus zeigt (siehe die Google Ngram-Abfrage in Fig. 3).
+In den letzten fünfzehn Jahren hat die Bedeutung von barrierefreier Kommunikation {cite:p}`maas_handbuch_2019` im Allgemeinen und Leichter Sprache im Besonderen in der öffentlichen Verwaltung erheblich zugenommen. Im Kontext der Umsetzung der UN-Behindertenrechtskonvention, die seit ihrer Ratifizierung in Deutschland 2009 verbindliches Recht ist, ergibt sich eine Verpflichtung zur barrierearmen Kommunikation, bei der leichte Sprache – als eine „verständlichkeitsoptimierte Varietät" ({cite:p}`maas_leichte_2019`, S. 252) des Deutschen – eine wichtige Rolle spielt. In Form zahlreicher Regelwerke und Handreichungen (etwa {cite:p}`netzwerk_leichte_sprache_leichte_2014`, {cite:p}`maas_ratgeber_2016`), seit März 2025 auch in der <a href="https://www.dinmedia.de/de/technische-regel/din-spec-33429/387728031" target="_blank" class="external-link">DIN SPEC „Empfehlungen für Deutsche Leichte Sprache"</a>, wird die Verwendung Leichter Sprache diskursiv, konzeptionell und pragmatisch erschlossen. Neben der rechtlichen Dimension betrifft die Verwendung von Leichter Sprache in der Kommunikation mit und von Behörden dabei auch Grundfragen der gesellschaftlichen Teilhabe. Dies geschieht im Kontext einer gesteigerten gesellschaftlichen Aufmerksamkeit für das Konzept der Leichten Sprache, die sich exemplarisch etwa in der markanten Zunahme der Häufigkeit des Begriffs im Google Books-Korpus zeigt (siehe die Google Ngram-Abfrage in Fig. 3).
 
 
 ```{figure} ../book_images/Google-Ngram_Leichte-Sprache.png
@@ -20,11 +19,11 @@ Tun dies – so fragen wir uns im Folgenden am Beispiel der Berliner Senatsverwa
 
 
 `````{admonition} Forschungsfrage
-:class: tip
+:class: keypoint
 Wie entwickelt sich die kommunikative Barrierearmut des Berliner Senats im Zeitraum von 2011 bis 2024?
 `````
 
-# Bibliographie
+## Bibliographie
 ```{bibliography}
-:style: alpha
+:filter: docname in docnames
 ```

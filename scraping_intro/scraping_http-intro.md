@@ -42,7 +42,7 @@ Ein HTTP-Request besteht vor allem aus zwei wichtigen Elementen:
 - `www.berlin.de/` - Der Domainname (Server-Adresse)
 - `rbmskzl/` - Der Pfad zur spezifischen Ressource
 - `?suche=Begriff&seite=2` - Optionale Parameter (nach dem Fragezeichen)
-Die vollständige URL hier als Beispiel der Berliner Senatskanzlei lautet zusammengesetzt: [https://www.berlin.de/rbmskzl/](https://www.berlin.de/rbmskzl/)
+Die vollständige URL hier als Beispiel der Berliner Senatskanzlei lautet zusammengesetzt: <a href="https://www.berlin.de/rbmskzl/" target="_blank" class="external-link">https://www.berlin.de/rbmskzl/</a>
 
 2. Einer **Request-Methode**, mit der spezifiziert wird, welche Aktion vom Server erwartet wird. Die gängigsten Request-Methoden sind:
 - **GET**-Request: Fragt Daten an, ohne sie zu verändern (wie wenn Sie einen Katalog bestellen würden). GET-Requests sind in der URL sichtbar (z.B. in der Adressleiste Ihres Browsers).
@@ -61,7 +61,7 @@ Die Antwort vom Server enthält ebenfalls mehrere Komponenten:
 
 
 ## Automatisierte Abfrage der Startseite der Berliner Senatskanzlei
-Beispielhaft wollen wir die Startseite der Berlinar Senatskanzlei abfragen. Dafür verwenden wir die Python-Bibliothek `requests` und erstellen einen GET-Request, da wir ausschließlich die Inhalte der Website zugesendet bekommen wollen (wie wenn Sie auf diese URL klicken: [https://www.berlin.de/rbmskzl/](https://www.berlin.de/rbmskzl/)).
+Beispielhaft wollen wir die Startseite der Berliner Senatskanzlei abfragen. Dafür verwenden wir die Python-Bibliothek `requests` und erstellen einen GET-Request, da wir ausschließlich die Inhalte der Website zugesendet bekommen wollen (wie wenn Sie auf diese URL klicken: <a href="https://www.berlin.de/rbmskzl/" target="_blank" class="external-link">https://www.berlin.de/rbmskzl/</a>).
 
 ```{code-cell} python3
 # import library to perform HTTP requests

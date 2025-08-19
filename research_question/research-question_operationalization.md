@@ -16,7 +16,7 @@ Für die Operationalisierung unserer Forschungsfrage müssen insbesondere drei F
 ## Kommunikative Barierefreiheit und das Konzept der Leichten Sprache
 Das Konzept der kommunikativen Barrierearmut koppeln wir, wie im vorhergehenden Abschnitt bereits vorbereitet, an das **Konzept der Leichten Sprache**. Unter Barrierefarmut wollen wir in diesem Sinne im Folgenden eine Kommunikation in leicht verständlicher Sprache verstehen. Kommunikative Barrierarmut ist damit ein gradueller Begriff: die Sprache kann leichter oder schwerer verständlich sein. Unsere Messung soll genau das ermitteln: wird sie Sprache – unter bestimmten Gesichtspunkten – leichter oder schwerer verständlich?
 
-In der Forschung wird das Konzept der Leichten Sprache an einer ganzen Reihe von Indikatoren festgemacht. Die [DIN SPEC „Empfehlungen für Deutsche Leichte Sprache“](https://www.dinmedia.de/de/technische-regel/din-spec-33429/387728031) beziehen sich z.B. in Hinblick auf die sprachliche Dimension …  
+In der Forschung wird das Konzept der Leichten Sprache an einer ganzen Reihe von Indikatoren festgemacht. Die <a href="https://www.dinmedia.de/de/technische-regel/din-spec-33429/387728031" target="_blank" class="external-link">DIN SPEC „Empfehlungen für Deutsche Leichte Sprache"</a> beziehen sich z.B. in Hinblick auf die sprachliche Dimension …  
 - … auf die **Wortebene** (z.B. Verwenden geläufiger Wörter, Vermeiden von Metaphern und Fremd- bzw. Fachwörtern oder Abkürzungen u.v.m.), 
 - … auf die **Satzebene** (eher Verbalstil, Vermeiden von Negationen, Vermeiden von komplexen Nominalphrasen und eingebetteten Nebensätzen u.v.m.) 
 - … und auf **Textebene** (klare Absatzgliederung, vorangestellte Zusammenfassung, Verwenden von Zwischenüberschriften u.v.m.)
@@ -42,7 +42,7 @@ Nach systematischen Recherchen auf den Websites der Landesbehörden des Landes B
 Im Ergebnis kommen wir schließlich zu der folgenden Operationalisierung.
 
 `````{admonition} Operationalisierung
-:class: tip
+:class: hinweis
 Als repräsentative Kommunikation des Berliner Senats mit der Öffentlichkeit sollen die vom Senat veröffentlichten Pressemitteilungen gelten. Unter Barrierearmut wird eine Kommunikation in leicht verständlicher Sprache verstanden. Um die Komplexität der Sprache zu messen, werden verschiedene Lesbarkeitsindice herangezogen, die etwa auf der durchschnittlichen Wort- bzw. Satzlänge beruhen. 
 Wenn die so verstandene Textkomplexität über die Zeit niedriger wird, spricht dies für eine barriereärmere Kommunikation. Wenn die Textkomplexität über die Zeit ansteigt, nehmen die sprachlichen Barrieren in der Kommunikation zu. 
 
