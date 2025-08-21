@@ -19,7 +19,7 @@ Dieses Kapitel erklärt **Schritt für Schritt**, wie das Korpus aus Pressemitte
 
 ## 1. Ziel und Herangehensweise beim Aufbau des Forschungskorpus
 
-Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. Dafür nutzen wir sämtliche online publizierten Pressemitteilungen, die direkt der Berliner **Exekutive** zuzuordnen sind. Der Beobachtungszeitraum reicht von **2001 bis 24. 06. 2025** (Datum der Datenerhebung).
+Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. Dafür nutzen wir sämtliche online publizierten Pressemitteilungen, die direkt der Berliner **Exekutive** zuzuordnen sind. Der Beobachtungszeitraum reicht von **2001 bis 24. 06. 2025** (Datum der Datenerhebung).
 
 *Vorteile dieser Quelle*
 
