@@ -1,5 +1,20 @@
 (html-intro_intro)=
-# Einführung
+# Texte als digitale Objekte. Einführung in HTML
+````{margin}
+```{admonition} Fragen oder Feedback 
+:class: frage-feedback
+
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+    Stellen Sie eine Frage
+</a> <br>
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-2/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+    Geben Sie uns Feedback
+</a>
+
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+
+```
+````
 ```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
 Abgrenzung von unterschiedlichen Formate zur Textspeicherung und benennen der Vor- und Nachteile.
@@ -7,7 +22,6 @@ Struktur von HTML erklären und die Funktion von ausgewählte HTML-Tags benennen
 HTML-Tags zur Extraktion von Plain Text aus HTML aufzählen.
 ```
 
-## Zu diesem Kapitel
 In den vorherigen Kapitel wurde zum einen die [Operationalisierung](research-question_operationalization) der Fragestellung erläutert wurde und zum anderen in das [Korpuskonzept](corpus-collection_building-our-corpus) eingeführt. Da der Senat die Pressemitteilungen in Form von Websites veröffentlicht, diese aber meist noch weitere Informationen enthalten, geht es in diesem Kapitel, wie der Text einer Website strukturiert extrahiert werden kann.
 
 ```{figure} ../book_images/flow-chart_html.png
