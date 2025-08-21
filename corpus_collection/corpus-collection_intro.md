@@ -1,12 +1,26 @@
 (corpus-collection_intro)=
-# Einführung
+# Korpora als epistemische Objekte
+````{margin}
+```{admonition} Fragen oder Feedback 
+:class: frage-feedback
+
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
+    Stellen Sie eine Frage
+</a> <br>
+<a href="https://github.com/quadriga-dk/Text-Fallstudie-2/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
+    Geben Sie uns Feedback
+</a>
+
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
+
+```
+````
 ```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
 Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut.
 ```
 
-## Zu diesem Kapitel
-Nachdem im [vorherigen Kapitel](introduction_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) sich die "vom Senat veröffentlichten Pressemitteilungen" untersuchen lassen. 
+Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) sich die "vom Senat veröffentlichten Pressemitteilungen" untersuchen lassen. 
 
 ```{figure} ../book_images/flow-chart_corpus-collection.png
 ---

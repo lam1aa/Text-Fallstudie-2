@@ -11,7 +11,7 @@ name: HTML-Element
 Der Aufbau eines einfachen HTML-Elements
 ```
 
-## 1. Die Grundstruktur einer HTML-Seite
+## Die Grundstruktur einer HTML-Seite
 Jede HTML-Datei beginnt mit der Deklaration `<!DOCTYPE html>`, die dem Browser mitteilt, dass es sich um eine HTML5-Datei handelt. Die grundlegende Struktur sieht so aus:
 
 ```html
@@ -32,7 +32,7 @@ Jede HTML-Datei beginnt mit der Deklaration `<!DOCTYPE html>`, die dem Browser m
 - `<title>`: Legt den Titel der Webseite fest.
 - `<body>`: Enthält den sichtbaren Inhalt der Seite.
 
-## 2. Wichtige HTML-Elemente
+## Wichtige HTML-Elemente
 HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) gekennzeichnet sind.
 
 ### a) Überschriften und Absätze
@@ -54,7 +54,7 @@ HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) 
 <img src="bild.jpg" alt="Beispielbild">
 ```
 
-### 3. HTML-Attribute
+### HTML-Attribute
 
 HTML-Tags können Attribute enthalten, die zusätzliche Informationen bereitstellen. Ein Attribut wird im Start-Tag angegeben und besteht aus einem Namen und einem Wert:
 
@@ -75,7 +75,7 @@ Häufig verwendete Attribute sind:
 * `src`, `alt`, `width`, `height` bei Bildern
 * `id`, `class` zur Identifizierung und Gestaltung per CSS
 
-## 4. Listen und Tabellen
+## Listen und Tabellen
 
 ### a) Ungeordnete und geordnete Listen
 - `<ul>`: Eine Liste mit Punkten.
@@ -108,7 +108,7 @@ Häufig verwendete Attribute sind:
 </table>
 ```
 
-### 5. Hierarchische Struktur in HTML
+## Hierarchische Struktur in HTML
 
 HTML-Dokumente bestehen aus verschachtelten (nested) Elementen. Das bedeutet, dass Tags innerhalb anderer Tags liegen können. Diese hierarchische Struktur bildet einen sogenannten DOM-Baum (Document Object Model), der von Browsern oder Programmen zum Analysieren und Verarbeiten genutzt wird.
 
@@ -123,7 +123,7 @@ Beispiel:
 
 Hier liegt das `<a>`-Element innerhalb des `<p>`-Elements, und beide liegen wiederum im `<div>`-Element. Solche Strukturen sind wichtig, um Webseiten korrekt zu gestalten und um beim Scraping gezielt Inhalte auszuwählen.
 
-## 6. HTML und CSS
+## HTML und CSS
 HTML strukturiert die Inhalte, aber für das Design wird CSS (Cascading Style Sheets) verwendet. CSS kann direkt in HTML eingefügt werden:
 
 ```html
