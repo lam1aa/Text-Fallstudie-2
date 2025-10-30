@@ -27,8 +27,8 @@ identifiers:
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Text-Fallstudie-2
 url: https://quadriga-dk.github.io/Text-Fallstudie-2/
-keywords:
-- open educational resource
+keywords: &id002
+- Open Educational Resource
 license: CC-BY-SA-4.0
 references:
 - title: Jupyter Book
@@ -37,7 +37,7 @@ references:
   - name: The Jupyter Book Community
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
-  year: 2024
+  year: '2025'
   authors: *id001
   title: Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats
     (2011-2024). Eine Fallstudie
@@ -49,7 +49,6 @@ preferred-citation:
   languages:
   - deu
   copyright: CC-BY-SA-4.0
-  keywords:
-  - Open Educational Resource
+  keywords: *id002
   version: 1.0.0-beta
 version: 1.0.0-beta
