@@ -1,5 +1,5 @@
 (corpus-analysis_intro)=
-# Korpusanalyse. Textkomplexität 
+# Korpusanalyse 
 ````{margin}
 ```{admonition} Fragen oder Feedback 
 :class: frage-feedback
