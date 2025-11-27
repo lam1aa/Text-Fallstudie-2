@@ -17,6 +17,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```` 
 
 ```{admonition} Groblernziel dieses Kapitels
+:class: lernziele
 Die Lernenden können den Quellcode einer Website untersuchen, geeignete HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode für die Extraktion verwendet werden muss. 
 ```
 
