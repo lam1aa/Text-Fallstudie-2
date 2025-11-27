@@ -23,7 +23,7 @@ Tun dies – so fragen wir uns im Folgenden am Beispiel der Berliner Senatsverwa
 Wie entwickelt sich die kommunikative Barrierearmut des Berliner Senats im Zeitraum von 2011 bis 2024?
 `````
 
-## Bibliographie
+__Bibliographie__
 ```{bibliography}
 :filter: docname in docnames
 ```

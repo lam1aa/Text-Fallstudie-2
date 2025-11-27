@@ -53,7 +53,7 @@ Diese Operationalisierung ist, wie jede Operationalisierung in den Digital Human
 
 Die Reflektion der Grenzen und Beschränkungen, die mit der eigenen Operationalisierung einhergehen, ist essentieller Bestandteil von Digital Humanities-Projekten. Wir werden in der abschließenden [Reflexion](reflection_reflection) darauf zurückkommen.
 
-## Bibliographie
+__Bibliographie__
 ```{bibliography}
 :filter: docname in docnames
 ```
