@@ -1,6 +1,6 @@
 (introduction_learning-outcomes)=
 
-# Groblernziele dieser Fallstudie
+# Lernziele
 Nach erfolgreichem Durchlaufen dieser Fallstudie können im Erfolgsfall die folgenden Groblernziele erreicht werden:
 
 1. Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der "Operationalisierung" (siehe v.a. Kapitel ["Fragestellung und Operationalisierung"](research-question_intro)). 
