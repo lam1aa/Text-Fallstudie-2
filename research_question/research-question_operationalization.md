@@ -43,13 +43,13 @@ Im Ergebnis kommen wir schließlich zu der folgenden Operationalisierung.
 
 `````{admonition} Operationalisierung
 :class: hinweis
-Als repräsentative Kommunikation des Berliner Senats mit der Öffentlichkeit sollen die vom Senat veröffentlichten Pressemitteilungen gelten. Unter Barrierearmut wird eine Kommunikation in leicht verständlicher Sprache verstanden. Um die Komplexität der Sprache zu messen, werden verschiedene Lesbarkeitsindice herangezogen, die etwa auf der durchschnittlichen Wort- bzw. Satzlänge beruhen. 
+Als repräsentative Kommunikation des Berliner Senats mit der Öffentlichkeit sollen die vom Senat veröffentlichten Pressemitteilungen gelten. Unter Barrierearmut wird eine Kommunikation in leicht verständlicher Sprache verstanden. Um die Komplexität der Sprache zu messen, werden verschiedene Lesbarkeitsindizes herangezogen, die etwa auf der durchschnittlichen Wort- bzw. Satzlänge beruhen. 
 Wenn die so verstandene Textkomplexität über die Zeit niedriger wird, spricht dies für eine barriereärmere Kommunikation. Wenn die Textkomplexität über die Zeit ansteigt, nehmen die sprachlichen Barrieren in der Kommunikation zu. 
 
 `````
 
 ## Reflexion der Praxis des Operationalisierens
-Diese Operationalisierung ist, wie jede Operationalisierung in den Digital Humanities, diskutabel. Sie folgt dabei einem quantitativen Methodenparadigma. Und sie wählt mit den Lesbarkeitsindice einfache Indikatoren für das zu messende Phänomen. Die Operationalisierung wird zudem weitere Einschränkungen erfahren müssen, etwa was das Korpus der Analysen betrifft, das mit der Formulierung "vom Senat veröffentlichten Pressemitteilungen" noch zu groß gewählt ist und sich auf die digital verfügbaren Pressemitteilungen beschränken wird.   
+Diese Operationalisierung ist, wie jede Operationalisierung in den Digital Humanities, diskutabel. Sie folgt dabei einem quantitativen Methodenparadigma. Und sie wählt mit den Lesbarkeitsindizes einfache Indikatoren für das zu messende Phänomen. Die Operationalisierung wird zudem weitere Einschränkungen erfahren müssen, etwa was das Korpus der Analysen betrifft, das mit der Formulierung "vom Senat veröffentlichten Pressemitteilungen" noch zu groß gewählt ist und sich auf die digital verfügbaren Pressemitteilungen beschränken wird.   
 
 Die Reflektion der Grenzen und Beschränkungen, die mit der eigenen Operationalisierung einhergehen, ist essentieller Bestandteil von Digital Humanities-Projekten. Wir werden in der abschließenden [Reflexion](reflection_reflection) darauf zurückkommen.
 
