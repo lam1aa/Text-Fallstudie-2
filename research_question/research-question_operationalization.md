@@ -25,8 +25,8 @@ In der Forschung wird das Konzept der Leichten Sprache an einer ganzen Reihe von
 Für unsere Operationalisierung wollen wir auf ein kleines Set aus diesen Indikatoren zurückgreifen, das traditionell in sogenannten **Lesbarkeitsindizes** ({cite:p}`dubay_principles_2004`) zusammengeführt wird, die zur Messung von Textkomplexität entwickelt wurden. Viele dieser Lesbarkeitsindizes nutzen dabei zur Berechnung der Textkomplexität die durchschnittliche Wortlänge und die durchschnittliche Satzlänge, und damit zwei Parameter, die auch im Diskurs um Leichte Sprache regelmäßig herangezogen werden. 
 
 Vor diesem Hintergrund können wir unsere Fragestellung fokussieren, präzisieren und konkretisieren: Wir werden die kommunikative Barrierearmut messbar machen, indem wir mittels des Konzepts der Lesbarkeitsindizes die Textkomplexität messen und diese Messwerte so auswerten, dass wir zeitliche Entwicklungen ermitteln können. Daraus folgt für unsere Fragestellung: 
-- Steigt die mittels Lesbarkeitsindizes ermittelte Textkomplexität in den Texten unseres Korpus über die Zeit, dann wir die Behördenkommunikation schwerer verständlich.
-- Sinkt die mittels Lesbarkeitsindizes ermittelte Textkomplexität in den Texten unseres Korpus über die Zeit, dann wir die Behördenkommunikation leichter verständlich.
+- Steigt die mittels Lesbarkeitsindizes ermittelte Textkomplexität in den Texten unseres Korpus über die Zeit, dann wird die Behördenkommunikation schwerer verständlich.
+- Sinkt die mittels Lesbarkeitsindizes ermittelte Textkomplexität in den Texten unseres Korpus über die Zeit, dann wird die Behördenkommunikation leichter verständlich.
 
 ## Wahl eines Korpus
 Die damit skizzierten Analysen werden wir auf einem **Korpus** durchführen, das mindestens vier Kriterien erfüllen muss: 
