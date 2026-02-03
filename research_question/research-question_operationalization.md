@@ -2,7 +2,7 @@
 # Operationalisierung und Methodik
 ```{admonition} Feinlernziel(e) dieses Kapitels
 :class: lernziele
-Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitaive Methoden-Settings.
+Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitative Methoden-Settings.
 ```
 Die im [vorhergehenden Abschnitt](research-question_research-question) entwickelte Forschungsfrage zielt darauf, eine Verminderung der sprachlichen Komplexität in der Kommunikation der Berliner Senatsverwaltung mit der Öffenlichkeit zu beobachten, mithin potenzielle Veränderungen der kommunikativen Barrierearmut in einem bestimmten Zeitraum zu messen. 
 
