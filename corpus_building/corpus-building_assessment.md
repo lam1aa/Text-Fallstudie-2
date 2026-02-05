@@ -387,6 +387,8 @@ create_answer_box('corpus-building-1')
 **1. CSS-Selektor für Tabellenzeilen:**
 
 ```python
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(html_string)
 rows = soup.select("table tbody tr")
 # oder: soup.select("tbody tr")
 # oder: soup.find_all("tr")
