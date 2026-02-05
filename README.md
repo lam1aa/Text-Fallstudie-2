@@ -2,7 +2,7 @@
 
 ## QUADRIGA OER
 
-Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 1. Fallstudie des Datentyps Text entstanden.
+Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 2. Fallstudie des Datentyps Text entstanden.
 
 ## Datenkompetenzzentrum QUADRIGA
 
@@ -12,7 +12,7 @@ Anhand modellhafter Forschungsfragen werden für die drei Datentypen Bewegtes Bi
 
 ## Nutzung dieser OER
 
-Sie können dieses JupyterBook zu Lehr- und Lernzwecken verwenden. Sie können sie zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung. Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Text-Fallstudie-1/blob/main/LICENSE.md" target="_blank">Lizenzhinweisen</a>.  
+Sie können dieses JupyterBook zu Lehr- und Lernzwecken verwenden. Sie können sie zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung. Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Text-Fallstudie-2/blob/main/LICENSE.md" target="_blank">Lizenzhinweisen</a>.  
 
 ## Inhalt der OER
 Diese OER vermittelt Methoden zur automatische Erstellung, Aufbereitung und Analyse eines Textkorpus. Im Zentrum steht die Frage, wie sich die kommunikative Barrierefreiheit des Berliner Senats im Zeitraum von 2011 bis März 2025 entwickelt hat. Die Kommunikation des Senats wird an Hand von Pressemitteilungen untersucht. Der Fokus des Lehrbuchs liegt auf der Korpuserstellung mittels Web-Scraping und HTML-Parsing sowie der quantitativen Analyse von Textkomplexität. Die OER ist in sieben Kapitel aufgeteilt: Es wird zuerst in die Fragestellung und deren Operationalisierung eingeführt, dann werden Korpora als epistemische Objekte und HTML als digitales Textformat erläutert, danach folgt eine Einführung in Web-Scraping als Methode zum Korpusaufbau, die praktische Korpuserstellung wird durchgeführt und abschließend wird eine quantitative Analyse der Textkomplexität auf dem erstellten Korpus ausgeführt.

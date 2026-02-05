@@ -2,7 +2,7 @@
 # Operationalisierung und Methodik
 ```{admonition} Feinlernziel(e) dieses Kapitels
 :class: lernziele
-Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitaive Methoden-Settings.
+Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitative Methoden-Settings.
 ```
 Die im [vorhergehenden Abschnitt](research-question_research-question) entwickelte Forschungsfrage zielt darauf, eine Verminderung der sprachlichen Komplexität in der Kommunikation der Berliner Senatsverwaltung mit der Öffenlichkeit zu beobachten, mithin potenzielle Veränderungen der kommunikativen Barrierearmut in einem bestimmten Zeitraum zu messen. 
 
@@ -25,8 +25,8 @@ In der Forschung wird das Konzept der Leichten Sprache an einer ganzen Reihe von
 Für unsere Operationalisierung wollen wir auf ein kleines Set aus diesen Indikatoren zurückgreifen, das traditionell in sogenannten **Lesbarkeitsindizes** ({cite:p}`dubay_principles_2004`) zusammengeführt wird, die zur Messung von Textkomplexität entwickelt wurden. Viele dieser Lesbarkeitsindizes nutzen dabei zur Berechnung der Textkomplexität die durchschnittliche Wortlänge und die durchschnittliche Satzlänge, und damit zwei Parameter, die auch im Diskurs um Leichte Sprache regelmäßig herangezogen werden. 
 
 Vor diesem Hintergrund können wir unsere Fragestellung fokussieren, präzisieren und konkretisieren: Wir werden die kommunikative Barrierearmut messbar machen, indem wir mittels des Konzepts der Lesbarkeitsindizes die Textkomplexität messen und diese Messwerte so auswerten, dass wir zeitliche Entwicklungen ermitteln können. Daraus folgt für unsere Fragestellung: 
-- Steigt die mittels Lesbarkeitsindizes ermittelte Textkomplexität in den Texten unseres Korpus über die Zeit, dann wir die Behördenkommunikation schwerer verständlich.
-- Sinkt die mittels Lesbarkeitsindizes ermittelte Textkomplexität in den Texten unseres Korpus über die Zeit, dann wir die Behördenkommunikation leichter verständlich.
+- Steigt die mittels Lesbarkeitsindizes ermittelte Textkomplexität in den Texten unseres Korpus über die Zeit, dann wird die Behördenkommunikation schwerer verständlich.
+- Sinkt die mittels Lesbarkeitsindizes ermittelte Textkomplexität in den Texten unseres Korpus über die Zeit, dann wird die Behördenkommunikation leichter verständlich.
 
 ## Wahl eines Korpus
 Die damit skizzierten Analysen werden wir auf einem **Korpus** durchführen, das mindestens vier Kriterien erfüllen muss: 
@@ -43,13 +43,13 @@ Im Ergebnis kommen wir schließlich zu der folgenden Operationalisierung.
 
 `````{admonition} Operationalisierung
 :class: hinweis
-Als repräsentative Kommunikation des Berliner Senats mit der Öffentlichkeit sollen die vom Senat veröffentlichten Pressemitteilungen gelten. Unter Barrierearmut wird eine Kommunikation in leicht verständlicher Sprache verstanden. Um die Komplexität der Sprache zu messen, werden verschiedene Lesbarkeitsindice herangezogen, die etwa auf der durchschnittlichen Wort- bzw. Satzlänge beruhen. 
+Als repräsentative Kommunikation des Berliner Senats mit der Öffentlichkeit sollen die vom Senat veröffentlichten Pressemitteilungen gelten. Unter Barrierearmut wird eine Kommunikation in leicht verständlicher Sprache verstanden. Um die Komplexität der Sprache zu messen, werden verschiedene Lesbarkeitsindizes herangezogen, die etwa auf der durchschnittlichen Wort- bzw. Satzlänge beruhen. 
 Wenn die so verstandene Textkomplexität über die Zeit niedriger wird, spricht dies für eine barriereärmere Kommunikation. Wenn die Textkomplexität über die Zeit ansteigt, nehmen die sprachlichen Barrieren in der Kommunikation zu. 
 
 `````
 
 ## Reflexion der Praxis des Operationalisierens
-Diese Operationalisierung ist, wie jede Operationalisierung in den Digital Humanities, diskutabel. Sie folgt dabei einem quantitativen Methodenparadigma. Und sie wählt mit den Lesbarkeitsindice einfache Indikatoren für das zu messende Phänomen. Die Operationalisierung wird zudem weitere Einschränkungen erfahren müssen, etwa was das Korpus der Analysen betrifft, das mit der Formulierung "vom Senat veröffentlichten Pressemitteilungen" noch zu groß gewählt ist und sich auf die digital verfügbaren Pressemitteilungen beschränken wird.   
+Diese Operationalisierung ist, wie jede Operationalisierung in den Digital Humanities, diskutabel. Sie folgt dabei einem quantitativen Methodenparadigma. Und sie wählt mit den Lesbarkeitsindizes einfache Indikatoren für das zu messende Phänomen. Die Operationalisierung wird zudem weitere Einschränkungen erfahren müssen, etwa was das Korpus der Analysen betrifft, das mit der Formulierung "vom Senat veröffentlichten Pressemitteilungen" noch zu groß gewählt ist und sich auf die digital verfügbaren Pressemitteilungen beschränken wird.   
 
 Die Reflektion der Grenzen und Beschränkungen, die mit der eigenen Operationalisierung einhergehen, ist essentieller Bestandteil von Digital Humanities-Projekten. Wir werden in der abschließenden [Reflexion](reflection_reflection) darauf zurückkommen.
 

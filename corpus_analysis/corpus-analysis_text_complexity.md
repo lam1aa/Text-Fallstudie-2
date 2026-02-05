@@ -16,10 +16,10 @@ Wie entwickelt sich die kommunikative Barrierearmut des Berliner Senats im Zeitr
 `````
 Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zunächst wie folgt **operationalisiert**:
 1. die **Kommunikation des Berliner Senats** wird durch das Korpus, bestehend aus Pressemitteilungen, erfasst
-2. die **Barrierearmut** wird über Lesarbeitsindice errechnet
+2. die **Barrierearmut** wird über Lesarbeitsindizes errechnet
 
-## Lesbarkeitsindice
-Wie im Kapitel ["Operationalisierung"](research-question_operationalization) beschrieben, kann Leichte Sprache in drei Dimension unterschieden werden. Im folgenden gehen wir genauer darauf ein, welche Indikatoren auf Wort- und Satzebene eine Rolle bei der Berechnung der Lesbarkeitsindice spielen. 
+## Lesbarkeitsindizes
+Wie im Kapitel ["Operationalisierung"](research-question_operationalization) beschrieben, kann Leichte Sprache in drei Dimension unterschieden werden. Im folgenden gehen wir genauer darauf ein, welche Indikatoren auf Wort- und Satzebene eine Rolle bei der Berechnung der Lesbarkeitsindizes spielen. 
 
 ### Wortebene
 * **Länge** der Wörter:
@@ -48,8 +48,8 @@ Zur Berechnung der Komplexität wird die **Satzlänge** auf unterschiedliche Wei
 Es wird meistens mit dem Durchschnitt der Wort- oder Satzlänge gerechnet. Der Durchschnitt wird berechnet indem zuerst die Längen aller Wörter/Sätze berechnet wird. Die Längen werden summiert und durch die Anzahl der Sätze/Wörter im Text geteilt.
 
 ### 2.3 Algorithmen zur Errechnung
-Seit den 1940er Jahren wurden verschiedene Lesbarkeitsindice entwickelt, die teils sprachunbhängig sind, teils sprachabhängig (wenn die Anzahl der Silben in einem Wort oder ein vordefiniertes Wörterbuch einbezogen wird). Die meisten Indice wurde für die englische Sprache entwickelt. Die Berechnung kann zwar für die deutsche Sprache adaptiert werden (z.B. indem die Silbentrennung auf Deutsch angepasst wird), allerdings nehmen viele der Indice eine Gewichtung in ihrer Berechnung vor, die auch auf die englische Sprache angepasst ist. 
-Für die deutsche Sprache wurde die Wiener Sachtextformel entwickelt. Auf das Deutsche angepasst wurde einer der bekanntesten Lesbarkeitsindice Flesch. Wir verwenden deshalb diese zwei Indice sowie den Automated Readability Index (ARI) und den Coleman-Liau-Score, da diese noch andere Paramter einbeziehen als Flesch und die Wiener Sachtextformel. 
+Seit den 1940er Jahren wurden verschiedene Lesbarkeitsindizes entwickelt, die teils sprachunbhängig sind, teils sprachabhängig (wenn die Anzahl der Silben in einem Wort oder ein vordefiniertes Wörterbuch einbezogen wird). Die meisten Indice wurde für die englische Sprache entwickelt. Die Berechnung kann zwar für die deutsche Sprache adaptiert werden (z.B. indem die Silbentrennung auf Deutsch angepasst wird), allerdings nehmen viele der Indice eine Gewichtung in ihrer Berechnung vor, die auch auf die englische Sprache angepasst ist. 
+Für die deutsche Sprache wurde die Wiener Sachtextformel entwickelt. Auf das Deutsche angepasst wurde einer der bekanntesten Lesbarkeitsindizes Flesch. Wir verwenden deshalb diese zwei Indice sowie den Automated Readability Index (ARI) und den Coleman-Liau-Score, da diese noch andere Paramter einbeziehen als Flesch und die Wiener Sachtextformel. 
 Im Folgenden werden die vier Maße kurz vorgestellt und an folgendem Beispielsatz berechnet:
 `
 Mein Nachbar, den ich letztes Jahr kennengelernt habe, hat gestern ein Glitzereinhorn gekauft.

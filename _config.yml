@@ -43,5 +43,7 @@ html:
     <p>Diese OER wurde im Rahmen des Projekts <a href="https://www.quadriga-dk.de" target="_blank" class="external-link">QUADRIGA</a> erstellt. Das Projekt wurde gefördert durch das <a href="https://www.bmbf.de" target="_blank" class="external-link">Bundesministerium für Forschungs, Technologie und Raumfahrt (BMFTR)</a>. Eine <a href="https://quadriga-dk.github.io/Text-Fallstudie-2/epilog/QUADRIGA.html">Kurzvorstellung des Projekts</a> finden Sie im Epilog.</p>
 
 sphinx:
+  extra_extensions:
+    - sphinx_apa_references
   config:
     html_show_copyright: false
