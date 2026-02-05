@@ -310,7 +310,7 @@ quiz.create_matching_quiz(
         "Eher Verbalstil, Vermeiden von Negationen",
         "Klare Absatzgliederung, vorangestellte Zusammenfassung"
     ],
-    options=["Wortebene", "Satzebene", "Textebene", "Dokumentebene"],
+    options=["Wortebene", "Satzebene", "Textebene", "Silbenebene"],
     correct_mapping={
         "Verwenden geläufiger Wörter, Vermeiden von Fremdwörtern": "Wortebene",
         "Eher Verbalstil, Vermeiden von Negationen": "Satzebene",
