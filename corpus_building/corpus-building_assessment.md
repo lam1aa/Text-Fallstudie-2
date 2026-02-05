@@ -520,6 +520,7 @@ for tr in rows:
 
 \```
 # In CSV speichern
+\``` python
 import pandas as pd
 df = pd.DataFrame(records)
 df.to_csv('metadata.csv', index=False, encoding='utf-8')
