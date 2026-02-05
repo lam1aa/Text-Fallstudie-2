@@ -518,6 +518,7 @@ for tr in rows:
         'txt_file': f"{uid}.txt"
     })
 
+\```
 # In CSV speichern
 import pandas as pd
 df = pd.DataFrame(records)
