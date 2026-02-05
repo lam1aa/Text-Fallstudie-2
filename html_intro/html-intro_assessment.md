@@ -127,7 +127,7 @@ from quadriga import colors
 
 question3 = [
     {
-        "question": "Für welchen Anwendungsfall wäre CSV das am besten geeignete Format?",
+        "question": "Für welche der folgenden Aufgaben wäre CSV geeignet?",
         "type": "multiple_choice",
         "answers": [
             {
