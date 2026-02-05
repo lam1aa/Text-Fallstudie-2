@@ -105,7 +105,7 @@ quiz.create_matching_quiz(
         "Strukturierte Darstellung mit verschachtelten Tags und semantischer Information",
         "Tabellarisches Format, ideal für annotierte Textdaten mit linguistischen Informationen"
     ],
-    options=["Bilddigitalisat", "Plain Text", "HTML", "CSV", "XML"],
+    options=["Bilddigitalisat", "Plain Text", "HTML", "CSV", "CSS"],
     correct_mapping={
         "Bewahrt die visuelle Gestalt des Originals, aber nicht direkt maschinenlesbar": "Bilddigitalisat",
         "Einfache, unformatierte Textdatei ohne Stilelemente oder Metadaten": "Plain Text",
