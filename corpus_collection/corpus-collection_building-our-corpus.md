@@ -69,13 +69,13 @@ Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Fe
 
 | Feld            | Datentyp                       | Bedeutung                                                                                              |
 | --------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `DC.identifier` | Integer (string‑repräsentiert) | Fortlaufende Kennziffer aus der URL (`…/pressemitteilung.<id>.php`) – dient als Primärschlüssel (ID).       |
+| `DC.identifier` | Integer (string‑repräsentiert) | Fortlaufende Kennziffer aus der URL (`…/pressemitteilung.<identifier>.php`) – dient als Primärschlüssel (ID).       |
 | `DC.source`     | String                         | Vollständige Adresse (URL) der Detailseite (permanent).                                                      |
 | `DC.date`       | Datumsstring `DD.MM.YYYY`      | Veröffentlichungsdatum, eins‑zu‑eins aus der Trefferliste (kann später als `datetime` geparst werden). |
 | `DC.title`      | String                         | Originalüberschrift (UTF‑8, inklusive Sonderzeichen).                                                  |
 | `DC.publisher`  | String                         | Herausgebende Stelle = Ressort/Bezirksamt/Landesbeauftragte.                                           |
-| `filename_html` | String                         | Dateiname der gespeicherten Roh‑HTML (`<id>.html`).                                                    |
-| `filename`      | String                         | Dateiname der bereinigten Plain‑Text‑Fassung (`<id>.txt`).                                             |
+| `filename_html` | String                         | Dateiname der gespeicherten Roh‑HTML (`<identifier>.html`).                                                    |
+| `filename`      | String                         | Dateiname der bereinigten Plain‑Text‑Fassung (`<identifier>.txt`).                                             |
 | `n_tokens`      | Integer                        | Grober Umfangsindikator = Anzahl der whitespace‑getrennten Token im Plain‑Text.                        |
 
 > **Praxisnutzen**
