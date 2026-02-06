@@ -65,7 +65,7 @@ Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. D
 
 ## Metadatenstruktur
 
-Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Feldern – damit lässt sich das Korpus bequem filtern, sortieren oder mit externen Daten anreichern.
+Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Feldern – damit lässt sich das Korpus bequem filtern, sortieren oder mit externen Daten anreichern. Wo immer möglich, wurden dabei standardisierte Metadatenfelder aus dem Dublin-Core-Schema verwendet. Entsprechende Spalten sind in der folgenden Tabelle mit dem Präfix `DC.` gekennzeichnet.
 
 | Feld            | Datentyp                       | Bedeutung                                                                                              |
 | --------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------ |
