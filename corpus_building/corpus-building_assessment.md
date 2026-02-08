@@ -478,7 +478,7 @@ vollstaendige_url = urljoin(base_url, relative_url)
 
 **Speicherformat (CSV):**
 ```csv
-id,url,datum,titel,quelle,html_file,txt_file,scraped_at,n_tokens
+DC.identifier,DC.source,DC.date,DC.title,DC.source,html_file,txt_file,scraped_at,n_tokens
 12345,https://...,15.01.2024,Neuer Stadtrat gewählt,Rathaus,12345.html,12345.txt,2024-01-20,385
 12344,https://...,14.01.2024,Haushalt beschlossen,Finanzen,12344.html,12344.txt,2024-01-20,412
 ```
@@ -518,9 +518,9 @@ for tr in rows:
         'txt_file': f"{uid}.txt"
     })
 
-\```
+```
 # In CSV speichern
-\``` python
+```python
 import pandas as pd
 df = pd.DataFrame(records)
 df.to_csv('metadata.csv', index=False, encoding='utf-8')
