@@ -4,3 +4,4 @@ data/
 _build
 __pycache__
 quadriga1/
+**/.DS_Store
